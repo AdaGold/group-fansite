@@ -22,7 +22,6 @@ This is an individual project. It consists of a baseline and a single wave. You 
   - All markup should be semantic, with consideration of hierarchy and accessibility.
   - CSS should be concise and well formatted
   - Images and stylesheets should be kept in their own folders, called `images` and `stylesheets`, respectively.
-  - Given that this is our first html/css project, full browser compatibility is not a requirement, but you should make a minimal effort for _acceptable visual consistence_ in two of the three primary browsers available on OS X (Safari, Chrome, and/or Firefox).
 
 ### Optional Enhancements
 - Create a `blog/` or `code-journal/` directory. Within this directory...
@@ -33,3 +32,13 @@ This is an individual project. It consists of a baseline and a single wave. You 
 
 ### A Word of Caution
 Lots of developers find their initial foray into CSS frustrating. Every browser implements the CSS standard a little (or a lot) differently. Learning to manipulate elements and understand the _box model_ takes time. Floats can be especially challenging to developers new to CSS. For this project, focus on understanding the mechanics and semantics of HTML and CSS, and how the two work together.
+
+### Inspiration 👯
+- [http://lizabinante.com/](http://lizabinante.com/)
+- [http://www.elenichappen.com/](http://www.elenichappen.com/)
+- [http://where.coraline.codes/](http://where.coraline.codes/)
+- [http://danisaurus.github.io/](http://danisaurus.github.io/)
+- [http://stephaniemarx.com/](http://stephaniemarx.com/)
+- [http://www.jenniechamberlin.com/](http://www.jenniechamberlin.com/)
+- [https://www.heyellieday.com/](https://www.heyellieday.com/)
+- [http://car.oline.codes/](http://car.oline.codes/)
