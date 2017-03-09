@@ -1,7 +1,11 @@
 # Static Site: Code Journal & Portfolio
-__Learning Goal:__ Practice creating semantic HTML and applying visual styles with CSS. The goal is to explore the relationship between HTML and CSS, and how visual styles add to the semantics and hierarchy established by the foundational HTML.
 
 You will create a _static_ web site using HTML & CSS. This static site will serve as the foundation for later projects, and will contain information about your programming projects and efforts at Ada.
+
+## Learning Goals:
+- Practice creating semantic HTML
+- Practice applying visual styles with CSS
+- Use both HTML & CSS together to create a comprehensive design
 
 ## Project Requirements
 This is an individual project. It consists of a baseline and a single wave. You are only permitted to use static HTML and CSS for this project. Preprocessors (haml, erb, sass, less, etc.) and Javascript of any time are not allowed.
