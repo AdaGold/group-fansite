@@ -1,0 +1,89 @@
+/* TODO: alt tag if needed */
+/* ADDRESSES ALL OF PAGE */
+
+* {
+  font-family: 'Didact Gothic', sans-serif;
+  font-weight: lighter;
+  /* TODO: Add background color correctly. */
+  /*background-color: rgb(242, 242, 242);*/
+  /* TODO: REMOVE */
+  /*border: black solid;*/
+}
+
+*:link, *:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* HEADER */
+
+body header {
+  background-color: rgb(179, 0, 0);
+  /*width: 50%;*/
+}
+
+body header h2 {
+  text-align: left;
+}
+
+body header ul li {
+  text-align: right;
+  list-style: none;
+  text-decoration: none;
+}
+
+body header ul {
+  list-style: none;
+}
+
+/* BODY */
+body {
+  /*margin: black solid;*/
+}
+
+/* BODY - MAIN */
+body main h1 {
+  text-align: center;
+}
+
+/* BODY - MAIN - SECTION ~ PARAGRAPH */
+
+.opening {
+  text-align: center;
+}
+
+body main section p {
+  /*color: pink;*/
+  /*position: relative;*/
+}
+
+main section {
+  /* FIXME: margin center now working correctly. */
+  margin: 3%;
+  width: 30%;
+  display: inline-block;
+}
+
+.learnmore:link, .learnmore:visited {
+  color: black;
+  text-decoration: underline;
+}
+
+main section:nth-of-type(even) {
+  /*width: 40%;
+  position: absolute;
+  top: 30%;
+  left: 30%;*/
+}
+
+main section:nth-of-type(odd) {
+  /*width: 40%;
+  position: absolute;
+  top: 30%;
+  left: 90%;*/
+}
+
+/* FOOTER */
+footer {
+  text-align: right;
+}
