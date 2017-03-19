@@ -1,13 +1,9 @@
 /* TODO: alt tag if image added */
-/* ADDRESSES ALL OF PAGE */
 
+/* ENTIRE PAGE */
 * {
   font-family: 'Didact Gothic', sans-serif;
   font-weight: lighter;
-  /* TODO: Add background color correctly. */
-  /*background-color: rgb(242, 242, 242);*/
-  /* TODO: REMOVE */
-  /*border: black solid;*/
 }
 
 *:link, *:visited {
@@ -15,31 +11,27 @@
   text-decoration: none;
 }
 
-/* BODY - HEADER */
+/* BODY */
 
 body {
-  /*border: 0px;*/
   margin: 0px;
 }
 
+/* BODY - HEADER */
+
 body header {
-  /*background-color: rgb(179, 0, 0);*/
-  /*background-color: rgb(153, 38, 0);*/
-   /*background-color: rgb(204, 51, 0);*/
-   /*background-color: rgb(190, 32, 60);*/
    background-color: rgb(0,0,0);
    color: white;
-  /*width: 50%;*/
 }
 
 body header h2 {
-  /*background-color: rgb(179, 0, 0);*/
   text-align: left;
   margin: 0px;
   width: 30%;
 }
 
 body header ul {
+  list-style: none;
   margin: 0px;
   width: 30%;
   text-align: right;
@@ -49,55 +41,27 @@ body header ul {
   right: -69.5%;
 }
 
-body header ul li {
-  /*background-color: rgb(179, 0, 0);*/
-  /*text-align: right;
-  list-style: none;
-  text-decoration: none;
-  width: 30%;*/
-  /*position: relative;
-  top: -25px;
-  right: -69%;*/
-  /*boarder: 0px;*/
-}
+/* BODY - DIV - MAIN */
 
-body header ul {
-  list-style: none;
+* body {
+  background-color: rgb(242, 242, 242);
 }
-
-/* BODY */
 
 .content {
   min-height: 100vh;
 }
 
-* body {
-  /*margin: black solid;*/
-  background-color: rgb(242, 242, 242);
-}
-
-/* BODY - MAIN */
 body main h1 {
   margin: auto;
   padding: 1.5% 1.5%;
-  /*border: 5%;*/
   text-align: center;
-  width: 100vh;
 }
-
-/* BODY - MAIN - SECTION ~ PARAGRAPH */
 
 .opening {
   text-align: center;
 }
 
-body main section p {
-  /*color: pink;*/
-  /*position: relative;*/
-}
-
 body main section {
-  /* FIXME: margin center not working correctly. */
   margin: 3%;
   width: 30%;
   display: inline-block;
@@ -110,37 +74,22 @@ body main section {
   display: inline-block;
 }
 
-.blog-post {
-  width: 46%;
-}
-
 .learnmore:link, .learnmore:visited {
   color: black;
   text-decoration: underline;
+}
+
+.blog-post {
+  width: 46%;
 }
 
 .secretlinks:link, .secretlinks:visited {
   color: black;
 }
 
-main section:nth-of-type(even) {
-  /*width: 40%;
-  position: absolute;
-  top: 30%;
-  left: 30%;*/
-}
-
-main section:nth-of-type(odd) {
-  /*width: 40%;
-  position: absolute;
-  top: 30%;
-  left: 90%;*/
-}
-
 .content .project {
   margin: auto;
   width: 100vw;
-  /*padding: 1.5% 1.5%;*/
   text-align: center;
 }
 
