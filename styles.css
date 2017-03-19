@@ -17,6 +17,11 @@
 
 /* HEADER */
 
+body {
+  /*border: 0px;*/
+  margin: 0px;
+}
+
 body header {
   background-color: rgb(179, 0, 0);
   /*width: 50%;*/
@@ -24,12 +29,29 @@ body header {
 
 body header h2 {
   text-align: left;
+  margin: 0px;
+  width: 30%;
+}
+
+body header ul {
+  margin: 0px;
+  width: 30%;
+  text-align: right;
+  padding: 0px;
+  position: relative;
+  top: -25px;
+  right: -69.5%;
 }
 
 body header ul li {
-  text-align: right;
+  /*text-align: right;
   list-style: none;
   text-decoration: none;
+  width: 30%;*/
+  /*position: relative;
+  top: -25px;
+  right: -69%;*/
+  /*boarder: 0px;*/
 }
 
 body header ul {
@@ -43,7 +65,11 @@ body {
 
 /* BODY - MAIN */
 body main h1 {
+  margin: auto;
+  padding: 1.5% 1.5%;
+  /*border: 5%;*/
   text-align: center;
+  width: 100vh;
 }
 
 /* BODY - MAIN - SECTION ~ PARAGRAPH */
@@ -58,10 +84,20 @@ body main section p {
 }
 
 main section {
-  /* FIXME: margin center now working correctly. */
+  /* FIXME: margin center not working correctly. */
   margin: 3%;
   width: 30%;
   display: inline-block;
+}
+
+.about {
+  margin: 3%;
+  width: 80vw;
+  display: inline-block;
+}
+
+.blog-post {
+  width: 46%;
 }
 
 .learnmore:link, .learnmore:visited {
@@ -83,7 +119,21 @@ main section:nth-of-type(odd) {
   left: 90%;*/
 }
 
+.content .project {
+  margin: auto;
+  width: 100vw;
+  /*padding: 1.5% 1.5%;*/
+  text-align: center;
+}
+
 /* FOOTER */
+.content {
+  min-height: 100vh;
+}
+
 footer {
   text-align: right;
+  position: relative;
+  bottom: 0px;
+  right: .5%;
 }
