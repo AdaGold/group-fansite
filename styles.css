@@ -1,4 +1,4 @@
-/* TODO: alt tag if needed */
+/* TODO: alt tag if image added */
 /* ADDRESSES ALL OF PAGE */
 
 * {
@@ -11,11 +11,11 @@
 }
 
 *:link, *:visited {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
-/* HEADER */
+/* BODY - HEADER */
 
 body {
   /*border: 0px;*/
@@ -23,11 +23,17 @@ body {
 }
 
 body header {
-  background-color: rgb(179, 0, 0);
+  /*background-color: rgb(179, 0, 0);*/
+  /*background-color: rgb(153, 38, 0);*/
+   /*background-color: rgb(204, 51, 0);*/
+   /*background-color: rgb(190, 32, 60);*/
+   background-color: rgb(0,0,0);
+   color: white;
   /*width: 50%;*/
 }
 
 body header h2 {
+  /*background-color: rgb(179, 0, 0);*/
   text-align: left;
   margin: 0px;
   width: 30%;
@@ -44,6 +50,7 @@ body header ul {
 }
 
 body header ul li {
+  /*background-color: rgb(179, 0, 0);*/
   /*text-align: right;
   list-style: none;
   text-decoration: none;
@@ -59,8 +66,14 @@ body header ul {
 }
 
 /* BODY */
-body {
+
+.content {
+  min-height: 100vh;
+}
+
+* body {
   /*margin: black solid;*/
+  background-color: rgb(242, 242, 242);
 }
 
 /* BODY - MAIN */
@@ -83,11 +96,12 @@ body main section p {
   /*position: relative;*/
 }
 
-main section {
+body main section {
   /* FIXME: margin center not working correctly. */
   margin: 3%;
   width: 30%;
   display: inline-block;
+  vertical-align: top;
 }
 
 .about {
@@ -103,6 +117,10 @@ main section {
 .learnmore:link, .learnmore:visited {
   color: black;
   text-decoration: underline;
+}
+
+.secretlinks:link, .secretlinks:visited {
+  color: black;
 }
 
 main section:nth-of-type(even) {
@@ -127,9 +145,6 @@ main section:nth-of-type(odd) {
 }
 
 /* FOOTER */
-.content {
-  min-height: 100vh;
-}
 
 footer {
   text-align: right;
