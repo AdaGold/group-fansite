@@ -1,0 +1,103 @@
+/* TODO: alt tag if image added */
+
+/* ENTIRE PAGE */
+* {
+  font-family: 'Didact Gothic', sans-serif;
+  font-weight: lighter;
+}
+
+*:link, *:visited {
+  color: white;
+  text-decoration: none;
+}
+
+/* BODY */
+
+body {
+  margin: 0px;
+}
+
+/* BODY - HEADER */
+
+body header {
+   background-color: rgb(0,0,0);
+   color: white;
+}
+
+body header h2 {
+  text-align: left;
+  margin: 0px;
+  width: 30%;
+}
+
+body header ul {
+  list-style: none;
+  margin: 0px;
+  width: 30%;
+  text-align: right;
+  padding: 0px;
+  position: relative;
+  top: -25px;
+  right: -69.5%;
+}
+
+/* BODY - DIV - MAIN */
+
+* body {
+  background-color: rgb(242, 242, 242);
+}
+
+.content {
+  min-height: 100vh;
+}
+
+body main h1 {
+  margin: auto;
+  padding: 1.5% 1.5%;
+  text-align: center;
+}
+
+.opening {
+  text-align: center;
+}
+
+body main section {
+  margin: 3%;
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.about {
+  margin: 3%;
+  width: 80vw;
+  display: inline-block;
+}
+
+.learnmore:link, .learnmore:visited {
+  color: black;
+  text-decoration: underline;
+}
+
+.blog-post {
+  width: 46%;
+}
+
+.secretlinks:link, .secretlinks:visited {
+  color: black;
+}
+
+.content .project {
+  margin: auto;
+  width: 100vw;
+  text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: right;
+  position: relative;
+  bottom: 0px;
+  right: .5%;
+}
