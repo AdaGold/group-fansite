@@ -46,3 +46,6 @@ Lots of developers find their initial foray into CSS frustrating. Every browser 
 - [http://stephaniemarx.com/](http://stephaniemarx.com/)
 - [https://www.heyellieday.com/](https://www.heyellieday.com/)
 - [http://car.oline.codes/](http://car.oline.codes/)
+
+## What Instructors Are Looking For
+Check out the [feedback template](feedback.md) which lists the items instructors will be looking for as they evaluate your project.
