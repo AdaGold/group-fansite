@@ -10,7 +10,7 @@ This is an individual, [stage 2](https://github.com/Ada-Developers-Academy/pedag
 - Use both HTML & CSS together to create a comprehensive design
 
 ## Project Requirements
-This is an individual project. It consists of a baseline and a single wave. You are only permitted to use static HTML and CSS for this project. Preprocessors (haml, erb, sass, less, etc.) and Javascript of any kind are not allowed.
+This is an individual project. It consists of a baseline and a single wave. You are only permitted to use static HTML and CSS for this project. Preprocessors (haml, erb, sass, less, etc.) and Javascript of any kind are not allowed. All submitted HTML needs to pass as valid HTML through an HTML Validator.
 
 ### Baseline
 - Create an `index.html` that has the necessary meta information to link a stylesheet called `styles.css`.
@@ -27,7 +27,8 @@ This is an individual project. It consists of a baseline and a single wave. You 
 - The site should follow best practices including:
   - All markup should be semantic, with consideration of hierarchy and accessibility
   - CSS should be concise and well formatted
-  - Images and stylesheets should be kept in their own folders, called `images` and `stylesheets`, respectively.
+  - Images and stylesheets should be kept in their own folders, called `images` and `stylesheets`, respectively
+- Run your site through an [HTML Validator](https://validator.w3.org/#validate_by_upload) and fix all errors before submitting
 
 ### Optional Enhancements
 - Create a `blog/` or `code-journal/` directory. Within this directory...
