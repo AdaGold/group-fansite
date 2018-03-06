@@ -47,5 +47,8 @@ A lot of developers find their initial foray into CSS frustrating. Every browser
 - [https://www.heyellieday.com/](https://www.heyellieday.com/)
 - [http://car.oline.codes/](http://car.oline.codes/)
 
+### Optional: Deploy with GitHub Pages
+Want more? Make your site live on the internet! There are a lot of ways to go about hosting a live website, but GitHub provides a way to host static sites for free using your GitHub account. [Follow the steps listed here](https://pages.github.com/).
+
 ## What Instructors Are Looking For
 Check out the [feedback template](feedback.md) which lists the items instructors will be looking for as they evaluate your project.
