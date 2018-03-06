@@ -41,10 +41,8 @@ Lots of developers find their initial foray into CSS frustrating. Every browser 
 
 ### Inspiration 👯
 - [http://lizabinante.com/](http://lizabinante.com/)
-- [http://www.elenichappen.com/](http://www.elenichappen.com/)
 - [http://where.coraline.codes/](http://where.coraline.codes/)
 - [http://danisaurus.github.io/](http://danisaurus.github.io/)
 - [http://stephaniemarx.com/](http://stephaniemarx.com/)
-- [http://www.jenniechamberlin.com/](http://www.jenniechamberlin.com/)
 - [https://www.heyellieday.com/](https://www.heyellieday.com/)
 - [http://car.oline.codes/](http://car.oline.codes/)
