@@ -4,6 +4,8 @@ Use HTML & CSS to create a static site whose content is your portfolio. Your per
 
 This is an individual, [stage 2](https://github.com/Ada-Developers-Academy/pedagogy/blob/master/rule-of-three.md) project.
 
+The project is due: **Monday Sept 17th by 9:00am**
+
 ## Learning Goals:
 - Practice creating semantic HTML
 - Practice applying visual styles with CSS
