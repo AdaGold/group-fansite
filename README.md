@@ -46,7 +46,7 @@ A lot of developers find their initial foray into CSS frustrating. Every browser
 - [http://lizabinante.com/](http://lizabinante.com/)
 - [http://where.coraline.codes/](http://where.coraline.codes/)
 - [http://danisaurus.github.io/](http://danisaurus.github.io/)
-- [http://stephaniemarx.com/](http://stephaniemarx.com/)
+- [http://www.fenslattery.com/](http://www.fenslattery.com/)
 - [https://www.heyellieday.com/](https://www.heyellieday.com/)
 - [http://car.oline.codes/](http://car.oline.codes/)
 
