@@ -1,5 +1,10 @@
 # Personal Portfolio Site
 
+## At a Glance
+
+- Individual, [stage 2](https://github.com/Ada-Developers-Academy/pedagogy/blob/master/classroom/rule-of-three.md#stage-2) project
+- Due before class, *DATE HERE*
+
 ## Introduction
 
 It's common for developers to create a website to show off their web-dev skills and document their work and interests. These sites often feature things like:
@@ -80,3 +85,6 @@ A lot of developers find their initial foray into CSS frustrating. Every browser
 
 ### Optional: Deploy with GitHub Pages
 Want more? Make your site live on the internet! There are a lot of ways to go about hosting a live website, but GitHub provides a way to host static sites for free using your GitHub account. [Follow the steps listed here](https://pages.github.com/).
+
+## What Instructors Are Looking For
+Check out the [feedback template](feedback.md) which lists the items instructors will be looking for as they evaluate your project.
