@@ -59,6 +59,12 @@ header {
     width: 100%;
 }
 
+header h1 {
+    font-family: 'Mate SC', serif;
+    padding-left: 20px;
+    font-size: 50px;
+}
+
 header nav {
     display: flex;
     flex-direction: row;
@@ -66,12 +72,6 @@ header nav {
     align-items: flex-end;
     padding: 10px;
     width: 500px;
-}
-
-header h1{
-    font-family: 'Mate SC', serif;
-    padding-left: 20px;
-    font-size: 50px;
 }
 
 img {
@@ -85,13 +85,13 @@ p {
     max-width: 75%;
 }
 
+section {
+    padding: 20px;
+}
+
 section img {
     max-width: 200px;
     max-height: 200px;
-}
-
-section {
-    padding: 20px;
 }
 
 ul {

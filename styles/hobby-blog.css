@@ -16,10 +16,6 @@ hr {
     margin-bottom: 10px;
 }
 
-main {
-    padding-left: 75px;
-}
-
 img {
     float: left;
     margin: 20px;
@@ -31,7 +27,11 @@ img {
     border-radius: 20px;
 }
 
-div a, section a {
+main {
+    padding-left: 75px;
+}
+
+section a {
     background-color: #50a79f;
     text-align: center;
     border: none;
@@ -43,6 +43,6 @@ div a, section a {
     font-size: 20px;
 }
 
-div a:hover, section a:hover {
+section a:hover {
     background-color: #9ebd55;
 }

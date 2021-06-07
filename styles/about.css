@@ -1,3 +1,7 @@
+h2 {
+   max-width: 75%;
+}
+
 main img {
     float: left;
     margin: 20px;
@@ -38,8 +42,4 @@ p {
     border-radius: 0;
     margin-left: 0;
     margin-right: 0;
-}
-
-h2 {
-   max-width: 75%;
 }
