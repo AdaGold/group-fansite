@@ -31,22 +31,6 @@ main {
     padding: 20px;
 }
 
-/* div a, section a {
-    background-color: #50a79f;
-    text-align: center;
-    border: none;
-    color: #323749;
-    text-decoration: none;
-    cursor: pointer;
-    padding: 20px;
-    border-radius: 10px;
-    font-size: 20px;
-}
-
-div a:hover, section a:hover {
-    background-color: #9ebd55;
-} */
-
 footer {
     display: flex;
     flex-direction: row;
@@ -65,7 +49,6 @@ footer li {
     flex-direction: row;
     align-items: center;
     width: 200px;
-    padding-bottom: 10px;
 }
 
 header {
