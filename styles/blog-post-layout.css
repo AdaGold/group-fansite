@@ -1,0 +1,35 @@
+main img {
+    float: left;
+    margin: 20px;
+    border: 5px;
+    border-style: solid;
+    border-color: #50a79f;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 20px;
+    margin-left: 170px;
+    margin-right: 50px;
+}
+
+main ul {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    max-width: 80%;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+p {
+    max-width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+/* .date {
+    text-align: center;
+    font-style: italic;
+} */
