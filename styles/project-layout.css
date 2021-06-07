@@ -8,6 +8,30 @@ img {
 }
 
 .overview-wrapper {
-    display: grid;
-    grid-template-columns:
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h2 {
+    flex-direction: column;
+    max-width: 40%;
+}
+
+main a {
+    text-decoration: underline;
+}
+
+main ul {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

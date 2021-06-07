@@ -15,4 +15,9 @@ div {
 
 h2 {
     font-size: 35px;
+    margin: 0px;
+}
+
+main section:nth-child(2) {
+    background-color: rgba(122, 126, 141, 0.5);
 }

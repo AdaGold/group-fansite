@@ -7,23 +7,39 @@ main img {
     max-width: 300px;
     max-height: 300px;
     border-radius: 20px;
+    margin-left: 170px;
+    margin-right: 50px;
 }
 
 main ul {
     display: flex;
-    justify-content: space-between;
-    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    max-width: 80%;
+    padding: 0px;
+    margin-top: 0px;
 }
 
 p {
-    max-width: 80%;
+    max-width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
 }
 
 .social-media {
-    max-width: 50px;
-    max-height: 50px;
-    margin: 20px;
+    display: block;
+    max-width: 75px;
+    max-height: 75px;
     border-style: none;
     border: none;
     border-radius: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h2 {
+   max-width: 75%;
 }
