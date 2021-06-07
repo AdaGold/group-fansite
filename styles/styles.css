@@ -31,7 +31,7 @@ main {
     padding: 20px;
 }
 
-button {
+/* div a, section a {
     background-color: #50a79f;
     text-align: center;
     border: none;
@@ -43,9 +43,9 @@ button {
     font-size: 20px;
 }
 
-button:hover {
+div a:hover, section a:hover {
     background-color: #9ebd55;
-}
+} */
 
 footer {
     display: flex;
@@ -108,7 +108,7 @@ section img {
 }
 
 section {
-    padding: 1em;
+    padding: 20px;
 }
 
 ul {
@@ -118,8 +118,4 @@ ul {
 
 ul li {
     list-style-type: none;
-}
-
-hr {
-    
 }

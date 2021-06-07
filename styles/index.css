@@ -21,3 +21,19 @@ h2 {
 main section:nth-child(2) {
     background-color: rgba(122, 126, 141, 0.5);
 }
+
+div a, section a {
+    background-color: #50a79f;
+    text-align: center;
+    border: none;
+    color: #323749;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+div a:hover, section a:hover {
+    background-color: #9ebd55;
+}

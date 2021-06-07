@@ -13,6 +13,7 @@ hr {
     border: 5px solid #7a7e8d;
     max-width: 50%;
     margin: 5px;
+    margin-bottom: 10px;
 }
 
 main {
@@ -28,4 +29,20 @@ img {
     max-width: 300px;
     max-height: 300px;
     border-radius: 20px;
+}
+
+div a, section a {
+    background-color: #50a79f;
+    text-align: center;
+    border: none;
+    color: #323749;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+div a:hover, section a:hover {
+    background-color: #9ebd55;
 }
