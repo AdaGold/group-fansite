@@ -1,0 +1,13 @@
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-height: 300px;
+    max-width: 300px;
+    padding: 20px;
+}
+
+.overview-wrapper {
+    display: grid;
+    grid-template-columns:
+}

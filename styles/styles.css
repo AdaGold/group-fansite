@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.link-hover {
+    text-decoration: none;
+    color: #323749;
+    transition: all 0.2s linear;
+}
+
+.link-hover:hover, .link-hover:focus {
+    color: #f5f0f1;
+}
+
+a {
+    text-decoration: none;
+    color: #323749;
+}
+
+body {
+    font-family: 'Poppins', 'Arial', sans-serif;
+    color: #323749;
+    background-color: #f5f0f1;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+button {
+    background-color: #50a79f;
+    text-align: center;
+    border: none;
+    color: #323749;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #9ebd55;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px;
+    background-color: #9ebd55;
+    color: #323749;
+    line-height: 0.5em;
+    font-size: smaller;
+}
+
+footer li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 200px;
+    padding-bottom: 10px;
+}
+
+header {
+    background-color: #9ebd55;
+    color: #323749;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 10px;
+    width: 500px;
+}
+
+header h1{
+    font-family: 'Mate SC', serif;
+    padding-left: 20px;
+    font-size: 50px;
+}
+
+img {
+    max-height: 500px;
+    max-width: 500px;
+}
+
+p {
+    line-height: 1.5em;
+    text-align: justify;
+    max-width: 75%;
+}
+
+section img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+section {
+    padding: 1em;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li {
+    list-style-type: none;
+}

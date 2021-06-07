@@ -4,52 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link href="styles/styles.css" rel="stylesheet"> -->
+    <link href="styles/styles.css" rel="stylesheet">
+    <link href="styles/index.css" rel="stylesheet">
     <title>Sidney DuPont</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
 </head>
 <body>
     <header>
-        <h1>Sidney DuPont</h1>
-        <p>curious | innovative | tenacious</p>
+        <a href="hobby-blog.html"><h1>Sidney DuPont</h1></a>
+        <!-- <p>curious | innovative | tenacious</p> -->
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="hobby-blog.html">Hobby Blog</a></li>
-            </ul>
+            <a class="link-hover" href="index.html">Home</a>
+            <a class="link-hover" href="about.html">About</a>
+            <a class="link-hover" href="portfolio.html">Projects</a>
+            <a class="link-hover" href="hobby-blog.html">Blog</a>
         </nav>
     </header>
     <main>
         <section>
             <a href="about.html"><img src="images/005-programmer.png"></a>
-            <h2>Hi! I'm Sid.</h2>
-            <p>I'm a full-stack software engineering student based in Seattle, WA.</p>
-            <button type="button">Learn More</button>
+            <div>
+                <h2>Hi! I'm Sid</h2>
+                <p>I'm a full-stack software engineering student based in Seattle, WA.</p>
+                <button type="button"><a href="file:///Users/sidneydupont/Developer/projects/personal-portfolio-site/about.html">Learn More</a></button>
+            </div>
         </section>
         <section>
             <a href="portfolio.html"><img src="images/007-window.png"></a>
-            <h2>Coding Portfolio</h2>
-            <p>A collection of my coding projects</p>
-            <button type="button">See Projects</button>
+            <div>
+                <h2>Coding Portfolio</h2>
+                <p>A collection of my coding projects</p>
+                <button type="button">See Projects</button>
+            </div>
         </section>
         <section>
             <a href="hobby-blog.html"><img src="images/015-website.png"></a>
-            <h2>Hobby Blog</h2>
-            <p>When I'm not coding, you can find me cosplaying, hiking, gaming, or roller skating</p>
-            <button type="button">Read More</button>
+            <div>
+                <h2>Blog</h2>
+                <p>When I'm not coding, you can find me cosplaying, hiking, gaming, or roller skating</p>
+                <button type="button">Read More</button>
+            </div>
         </section>
     </main>
     <footer>
-        <a href="mailto:sidneyadupont@gmail.com">sidneyadupont@gmail.com</a>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="portfolio.html">Projects</a></li>
-                <li><a href="hobby-blog.html">Hobby Blog</a></li>
+                <li><a class="link-hover" href="index.html">Home</a></li>
+                <li><a class="link-hover" href="about.html">About</a></li>
+                <li><a class="link-hover" href="portfolio.html">Projects</a></li>
+                <li><a class="link-hover" href="hobby-blog.html">Blog</a></li>
             </ul>
         </nav>
+        <!-- <a href="mailto:sidneyadupont@gmail.com">sidneyadupont@gmail.com</a> -->
         <!-- <ul>
             <li><a href="https://www.linkedin.com/in/sidneydupont/"><img src="images/linkedin.png"></a></li>
             <li><a href="https://twitter.com/sid_dupont"><img src="images/twitter.png"></a></li>
