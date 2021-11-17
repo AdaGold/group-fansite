@@ -14,8 +14,8 @@ It's common for developers to create a website to show off their web-dev skills 
 - [http://lizabinante.com/](http://lizabinante.com/)
 - [http://where.coraline.codes/](http://where.coraline.codes/)
 - [http://danisaurus.github.io/](http://danisaurus.github.io/)
-- [http://www.fenslattery.com/](http://www.fenslattery.com/)
-- [https://www.heyellieday.com/](https://www.heyellieday.com/)
+- [http://www.fenslattery.com/](https://fenslattery.com/)
+- [https://www.heyellieday.com/](https://heyellieday.com/)
 - [http://car.oline.codes/](http://car.oline.codes/)
 
 ## Learning Goals:
