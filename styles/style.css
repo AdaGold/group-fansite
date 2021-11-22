@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .pair {
     position: relative;
     left: 10px;
@@ -13,4 +17,10 @@ time {
     font-weight: bold;
     font-family: sans-serif;
     font-size: smaller;
+}
+
+#selfie {
+    border-radius: 50%;
+    border: 1px rgb(255, 204, 0) solid;
+    padding: 5px;
 }
