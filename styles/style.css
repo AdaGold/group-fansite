@@ -1,0 +1,16 @@
+.pair {
+    position: relative;
+    left: 10px;
+}
+
+.pair::before {
+    content: "‣";
+    padding-right: 10px;
+}
+
+time {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: smaller;
+}
