@@ -1,6 +1,29 @@
 * {
     box-sizing: border-box;
+    /* margin: 0; */
 }
+
+html {
+    width: 100%;
+}
+
+body {
+    background-color: rgb(225, 168, 25);
+    padding: 0 20%;
+    margin: 0 auto;
+}
+
+/* nav {
+    background-color: rgb(225, 168, 25);
+}
+
+main {
+    background-color: rgb(225, 168, 25);
+}
+
+footer {
+    background-color: rgb(225, 168, 25);
+} */
 
 .pair {
     position: relative;
