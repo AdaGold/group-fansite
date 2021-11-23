@@ -63,6 +63,31 @@ p {
     line-height: 140%;
 }
 
+footer {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+footer p:last-of-type {
+    margin-bottom: 5px;
+    display: inline;
+}
+
+footer p:last-of-type, footer ul {
+    font-size: .8em;
+}
+
+footer ul {
+    list-style-type: none;
+    display: inline;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    padding-right: 10px;
+}
+
 mark {
     background-color: rgba(225, 168, 25, 0.756);
     padding: 3px;
@@ -90,6 +115,19 @@ time {
     border: 1px var(--yellow) solid;
     padding: 5px;
     max-width: 100%;
+}
+
+#hi {
+    /* background-color: white; */
+    text-align: center;
+}
+
+#personal, #professional {
+    margin-top: 50px;
+    border: 1px solid var(--pink);
+    padding: 20px;
+    /* box-shadow: -1px -1px 1px rgb(244, 160, 160), -10px -10px white; */
+    box-shadow: -10px -10px white;
 }
 
 #personal ul {
