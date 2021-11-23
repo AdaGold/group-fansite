@@ -19,7 +19,8 @@ a {
 body {
     background-color: var(--mint);
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Rubik', sans-serif;
+    color: var(--dark-blue)
 }
 
 body > * {
