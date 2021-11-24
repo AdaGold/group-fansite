@@ -1,0 +1,88 @@
+body, h1, h2, h3, h4, p, a {
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .header {
+    height: 100vh;
+    background-color: #eee;
+    background-image: url(https://i.imgur.com/2KrpUxN.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+  
+  .header-title {
+    font-size: 80px;
+    color: white;
+    font-family: "Apparel";
+    margin: auto;
+  }
+  
+  .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+  }
+  
+  .content {
+    font-size: 0;
+    width: 790px;
+    margin: 100px auto 50px;
+  }
+  
+  .card {
+    width: 350px;
+    margin-bottom: 60px;
+    margin-right: 90px;
+    padding: 45px 45px 70px;
+    display: inline-block;
+    box-shadow: 10px 10px 5px rgba(255, 255, 255, 0.4);
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .no-right-margin {
+    margin-right: 0;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 16px;
+  }
+  
+  .card-image {
+    width: 250px;
+    height: 200px;
+    margin-bottom: 25px;
+    object-fit: contain;
+  }
+  
+
+
+  .footer {
+    height: 300px;
+    background-color: black;
+    display: flex;
+  }
+  
+  .footer-author {
+    color: #fff;
+    font-size: 24px;
+    margin: auto;
+  }
