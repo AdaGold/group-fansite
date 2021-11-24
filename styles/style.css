@@ -247,7 +247,8 @@ time {
 #projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 35px;
+    row-gap: 45px;
+    column-gap: 35px;
 }
 
 #projects h2 {
@@ -279,7 +280,6 @@ time {
     background-color: var(--light-blue);
     padding: 10px 30px;
     position: relative;
-    height: 350px;
 }
 
 #projects article:first-child,
@@ -294,11 +294,6 @@ code {
     padding: 3px;
     display: inline-block;
     color: var(--pink);
-}
-
-a[href="https://task-list-afina.herokuapp.com/tasks"] {
-    display: inline-block;
-    padding-top: 10px;
 }
 
 /* COLORS */
