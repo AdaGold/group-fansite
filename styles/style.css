@@ -24,15 +24,27 @@ html {
 a {
     color: inherit;
     text-decoration: none;
-    border-bottom: 1px solid var(--dark-blue);
+    /* border-bottom: 1px solid var(--dark-blue); */
     font-weight: 500;
     transition-property: color;
     transition-duration: .08s;
+    display: inline-block;
 }
 
 a:hover {
     color: var(--mint);
+}
+
+a:after {
+    display: block;
+    content: '';
     border-bottom: 1px solid var(--pink);
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+a:hover::after {
+    transform: scaleX(1);
 }
 
 hr {
