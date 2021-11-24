@@ -110,8 +110,9 @@ footer p:last-of-type {
 
 footer ul {
     list-style-type: none;
-    display: inline;
+    /* display: inline; */
     padding: 0;
+    margin-top: 3px;
 }
 
 footer ul li {
@@ -120,6 +121,20 @@ footer ul li {
 }
 
 footer ul a:hover {
+    color: var(--pink)
+}
+
+.links a {
+    /* display: flex; */
+    padding: 0 5px;
+    font-size: 30px;
+    border: none;
+    color: var(--yellow);
+    margin-top: 15px;
+    /* justify-content: flex-end; */
+}
+
+.links a:hover {
     color: var(--pink)
 }
 
