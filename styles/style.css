@@ -190,10 +190,6 @@ footer ul a:hover {
     color: var(--mint)
 }
 
-#about h2 {
-    text-align: center;
-}
-
 #welcome {
     font-size: 1.2em;
 }
@@ -270,6 +266,39 @@ time {
 
 #hey {
     font-weight: 600;
+}
+
+#about {
+    display: grid;
+    grid-template-areas:
+        "image personal"
+        "image personal"
+        "professional professional";
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+}
+
+/* #redwoods {
+    min-width: 50%;
+} */
+
+#redwoods img {
+    display: block;
+    grid-area: image;
+    /* max-width: 90%; */
+}
+
+#about h2 {
+    text-align: center;
+}
+
+#personal {
+    grid-area: personal;
+    /* min-width: 50%; */
+}
+
+#professional {
+    grid-area: professional;
 }
 
 #personal, #professional {
