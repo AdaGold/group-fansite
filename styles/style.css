@@ -22,11 +22,20 @@ a {
     text-decoration: none;
     border-bottom: 1px solid var(--dark-blue);
     font-weight: 500;
+    transition-property: color;
+    transition-duration: .08s;
 }
 
 a:hover {
     color: var(--mint);
     border-bottom: 1px solid var(--pink);
+}
+
+hr {
+    background-color: var(--yellow);
+    border: none;
+    /* color: #bbb; */
+    height: 1px;
 }
 
 body {
@@ -37,7 +46,7 @@ body {
 }
 
 body > * {
-    padding: 0 20%;
+    padding: 0 10%;
 }
 
 nav {
@@ -70,9 +79,13 @@ nav a {
     font-weight: bold;
 }
 
+nav a:hover {
+    color: var(--dark-blue);
+    border-bottom: 1px solid var(--dark-blue);
+}
+
 header {
-    padding-top: 100px;
-    /* margin-top: 100px; */
+    padding-top: 75px;
 }
 
 p {
@@ -181,6 +194,7 @@ mark {
 }
 
 .pair {
+    /* margin: 0; */
     font-size: smaller;
     font-weight: bold;
 }
@@ -194,6 +208,10 @@ time {
     text-transform: uppercase;
     font-weight: bold;
     font-size: smaller;
+}
+
+.yay {
+    font-weight: 500;
 }
 
 #hi {
@@ -237,31 +255,23 @@ time {
 }
 
 #projects-header {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 #projects-header h1 {
     margin-bottom: 10px;
 }
 
-#projects {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 45px;
-    column-gap: 35px;
-}
-
 #projects h2 {
     background-color: black;
     color: white;
-    position: absolute;
-    left: -20px;
-    top: -40px;
-    border: 1px solid white;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: .08s;
 }
 
 #projects h2 + * {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 #projects h2:hover {
@@ -278,8 +288,25 @@ time {
 
 #projects article {
     background-color: var(--light-blue);
-    padding: 10px 30px;
-    position: relative;
+    margin-bottom: 30px;
+}
+
+#projects article div,
+#projects article p {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.description {
+    padding-bottom: 40px;
+}
+
+#projects h2 {
+    padding: 0;
+}
+
+#projects article a:hover {
+    border-color: inherit;
 }
 
 #projects article:first-child,
@@ -295,6 +322,51 @@ code {
     display: inline-block;
     color: var(--pink);
 }
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 1030px) {    
+    #projects {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 45px;
+        column-gap: 35px;
+    }
+
+    #projects h2 {
+        position: absolute;
+        left: -20px;
+        top: -40px;
+        text-align: left;
+        border: 1px solid white;
+    }
+
+    #projects h2 + * {
+        margin-top: 40px;
+    }
+
+    #projects article {
+        position: relative;
+        background-color: var(--light-blue);
+        padding-top: 40px;
+        margin-bottom: 30px;
+        
+    }
+
+    #projects-header {
+        margin-bottom: 70px;
+    }
+}
+
+@media screen and (min-width: 595px) {
+    body > * {
+        padding: 0 15%;
+    }
+    
+    header {
+        padding-top: 100px;
+    }
+}
+
 
 /* COLORS */
 /* CSS HEX */
