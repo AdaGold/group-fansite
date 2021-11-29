@@ -299,29 +299,10 @@ time {
     font-weight: 600;
 }
 
-/* #about {
-    display: grid;
-    grid-template-areas:
-        "image personal"
-        "image personal"
-        "professional professional";
-    grid-template-columns: 1fr 1fr;
-    column-gap: 50px;
-} */
-
-/* #redwoods {
-    min-width: 50%;
-} */
-
-#redwoods {
-    position: relative;
-}
-
 #redwoods img {
-    position: absolute;
-    z-index: -1;
-    width: 35%;
-    left: 10%;
+    display: block;
+    margin: 10px auto;
+    width: 50%;
 }
 
 #about h2 {
@@ -333,20 +314,6 @@ time {
     color: var(--pink)
 }
 
-#personal {
-    grid-area: personal;
-    margin-left: auto;
-    width: 50%;
-    /* min-width: 50%; */
-}
-
-#professional {
-    grid-area: professional;
-    margin: 0 auto;
-    background-color: var(--mint);
-    width: 65%;
-}
-
 #professional p:nth-of-type(3) {
     font-size: 1.2em;
 }
@@ -354,12 +321,8 @@ time {
 #personal, #professional {
     z-index: 1;
     margin-top: 50px;
-    /* border: 1px solid var(--pink); */
     padding: 20px;
-    /* box-shadow: -1px -1px 1px rgb(244, 160, 160), -10px -10px white; */
     box-shadow: -10px -10px white, 10px 10px var(--pink);
-    /* border-top: 1px solid var(--pink); 
-    border-left: 1px solid var(--pink); */
 }
 
 #professional a:hover, #projects-header a:hover {
@@ -459,6 +422,32 @@ code {
 /* MEDIA QUERIES */
 
 /* DESKTOP SIZES */
+@media screen and (min-width: 1225px) {
+    #redwoods {
+        position: relative;
+    }
+    
+    #redwoods img {
+        position: absolute;
+        z-index: -1;
+        left: 10%;
+        width: 35%;
+    }
+
+    #personal {
+        margin-left: auto;
+        width: 50%;
+        background-color: var(--mint);
+    }
+    
+    #professional {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: var(--mint);
+        width: 65%;
+    }
+}
+
 @media screen and (min-width: 1030px) {    
     #projects {
         display: grid;
