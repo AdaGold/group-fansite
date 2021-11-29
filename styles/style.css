@@ -296,7 +296,7 @@ time {
     font-weight: 600;
 }
 
-#about {
+/* #about {
     display: grid;
     grid-template-areas:
         "image personal"
@@ -304,29 +304,44 @@ time {
         "professional professional";
     grid-template-columns: 1fr 1fr;
     column-gap: 50px;
-}
+} */
 
 /* #redwoods {
     min-width: 50%;
 } */
 
+#redwoods {
+    position: relative;
+}
+
 #redwoods img {
-    display: block;
-    grid-area: image;
-    /* max-width: 90%; */
+    position: absolute;
+    z-index: -1;
+    width: 35%;
+    left: 10%;
 }
 
 #about h2 {
     text-align: center;
+    text-transform: lowercase;
+}
+
+.em {
+    color: var(--pink)
 }
 
 #personal {
     grid-area: personal;
+    margin-left: auto;
+    width: 50%;
     /* min-width: 50%; */
 }
 
 #professional {
     grid-area: professional;
+    margin: 0 auto;
+    background-color: var(--mint);
+    width: 65%;
 }
 
 #professional p:nth-of-type(3) {
@@ -334,6 +349,7 @@ time {
 }
 
 #personal, #professional {
+    z-index: 1;
     margin-top: 50px;
     /* border: 1px solid var(--pink); */
     padding: 20px;
