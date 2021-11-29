@@ -5,34 +5,34 @@ body, h1, h2, h3, h4, p, a {
     color: rgb(255, 110, 190);
   }
   
-  * {
-    box-sizing: border-box;
-  }
+* {
+  box-sizing: border-box;
+}
   
 a {
   color:blue
 }
 
-  body {
-    font-family: 'Inter', sans-serif;
-    background-color: rgb(0, 0, 0);
-  }
-  
-  .header {
-    height: 90vh;
-    background-color: #eee;
-    background-image: url(https://c4.wallpaperflare.com/wallpaper/365/724/10/hunter-x-hunter-gon-cs-killua-zoldyck-hd-wallpaper-preview.jpg);
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-  }
-  
-  .header-title {
-    font-size: 60px;
-    color: white;
-    font-family: "Apparel";
-    margin: auto;
-  }
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: rgb(0, 0, 0);
+}
+
+.header {
+  height: 90vh;
+  background-color: #eee;
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/365/724/10/hunter-x-hunter-gon-cs-killua-zoldyck-hd-wallpaper-preview.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.header-title {
+  font-size: 60px;
+  color: white;
+  font-family: 'Apparel';
+  margin: auto;
+}
 
 /* Style the navigation menu */
 .navbar {
@@ -72,71 +72,71 @@ a {
   }
 }
 
-  .overlay {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, .5);
-    display: flex;
-  }
-  
-  .content {
-    font-size: 0;
-    width: 790px;
-    margin: 100px auto 50px;
-  }
-  
-  .card {
-    width: 350px;
-    margin-bottom: 60px;
-    margin-right: 90px;
-    padding: 45px 45px 70px;
-    display: inline-block;
-    box-shadow: 10px 10px 5px rgba(255, 255, 255, 0.4);
-    background-color: rgb(255, 255, 255);
-  }
-  
-  .no-right-margin {
-    margin-right: 0;
-  }
-  
-  .card-title {
-    font-size: 24px;
-    font-weight: 500;
-    margin-bottom: 10px;
-  }
-  
-  .card-text {
-    font-size: 16px;
-  }
-  
-  .card-image {
-    width: 250px;
-    height: 200px;
-    margin-bottom: 25px;
-    object-fit: contain;
-  }
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  display: flex;
+}
+
+.content {
+  font-size: 0;
+  width: 790px;
+  margin: 100px auto 50px;
+}
+
+.card {
+  width: 350px;
+  margin-bottom: 60px;
+  margin-right: 90px;
+  padding: 45px 45px 70px;
+  display: inline-block;
+  box-shadow: 10px 10px 5px rgba(255, 255, 255, 0.4);
+  background-color: rgb(255, 255, 255);
+}
+
+.no-right-margin {
+  margin-right: 0;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+}
+
+.card-image {
+  width: 250px;
+  height: 200px;
+  margin-bottom: 25px;
+  object-fit: contain;
+}
 
 .about-image {
-  width: 30vw; 
-  min-width: 330px; 
-  vertical-align:middle;
+width: 30vw; 
+min-width: 330px; 
+vertical-align:middle;
 }
 
 .about-text {
-  vertical-align:middle; 
-  width:500px;
-  padding-bottom: 30px;
+vertical-align:middle; 
+width:500px;
+padding-bottom: 30px;
 }
 
-  .footer {
-    height: 100px;
-    background-color: rgb(101, 101, 101);
-    display: flex;
-  }
-  
-  .footer-author {
-    color: #fff;
-    font-size: 24px;
-    margin: auto;
-    padding: 20px;
-  }
+.footer {
+  height: 100px;
+  background-color: rgb(101, 101, 101);
+  display: flex;
+}
+
+.footer-author {
+  color: #fff;
+  font-size: 24px;
+  margin: auto;
+  padding: 20px;
+}
