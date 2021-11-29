@@ -329,6 +329,10 @@ time {
     grid-area: professional;
 }
 
+#professional p:nth-of-type(3) {
+    font-size: 1.2em;
+}
+
 #personal, #professional {
     margin-top: 50px;
     /* border: 1px solid var(--pink); */
