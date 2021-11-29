@@ -380,7 +380,7 @@ time {
 
 #projects h2 {
     background-color: black;
-    color: white;
+    color: var(--mint);
     text-align: center;
     transition-property: background-color;
     transition-duration: .08s;
@@ -407,8 +407,7 @@ time {
     margin-bottom: 30px;
 }
 
-#projects article div,
-#projects article p {
+#projects article :is(div, p) {
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -425,8 +424,7 @@ time {
     border-color: inherit;
 }
 
-#projects article:first-child,
-#projects article:last-child {
+#projects article:is(:first-child, :last-child) {
     background-color: rgb(40, 48, 68);
     color: white;
 }
