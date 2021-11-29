@@ -100,17 +100,14 @@ nav a:hover {
     border-bottom: 1px solid var(--dark-blue);
 }
 
-header {
-    padding-top: 75px;
-}
-
 h1 {
     text-transform: lowercase;
     border: 3px solid var(--dark-blue);
     padding: 5px 10px;
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
+    /* display: inline-block; */
+    width: fit-content;
+    margin: 30px auto 50px auto;
+    text-align: center;
 }
 
 h1:hover {
@@ -178,10 +175,6 @@ footer ul a:hover {
     padding-bottom: 80px;
 }
 
-#homepage h1 {
-    margin-top: 50px;
-}
-
 #home-main {
     padding-top: 60px;
 }
@@ -193,6 +186,7 @@ footer ul a:hover {
     max-width: 100%;
     display: block;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 #pronouns {
@@ -341,14 +335,6 @@ time {
 
 #hey {
     font-weight: 600;
-}
-
-#projects-header {
-    margin-bottom: 50px;
-}
-
-#projects-header h1 {
-    margin-bottom: 10px;
 }
 
 #projects h2 {
