@@ -191,6 +191,10 @@ footer ul a:hover {
     padding-bottom: 80px;
 }
 
+#homepage h1 {
+    margin-top: 50px;
+}
+
 #home-main {
     padding-top: 60px;
     padding-bottom: 40px;
@@ -230,15 +234,14 @@ footer ul a:hover {
     padding: 0;
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    flex-wrap: wrap;
 }
 
 #tech li {
     background-color: var(--dark-blue);
     color: var(--mint);
     width: 100%;
-    margin: 0 10px;
+    margin-bottom: 10px;
     padding: 10px 30px;
     border-radius: 20px;
 }
@@ -454,6 +457,8 @@ code {
 }
 
 /* MEDIA QUERIES */
+
+/* DESKTOP SIZES */
 @media screen and (min-width: 1030px) {    
     #projects {
         display: grid;
@@ -487,6 +492,33 @@ code {
     }
 }
 
+/* TABLET SIZES */
+@media screen and (min-width: 858px) {
+    #tech ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    #tech li {
+        flex-basis: 30%;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    #on-deck {
+        flex-wrap: nowrap;
+    }
+
+    #on-deck li {
+        flex-basis: 40%;
+        margin: 0;
+    }
+}
+
+/* SMALL TABLET SIZES */
 @media screen and (min-width: 595px) {
     body > * {
         padding: 0 15%;
