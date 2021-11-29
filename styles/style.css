@@ -1,4 +1,6 @@
+/******************/
 /* GENERAL STYLES */
+/******************/
 
 :root {
     --yellow: rgb(225, 168, 25);
@@ -24,7 +26,6 @@ html {
 a {
     color: inherit;
     text-decoration: none;
-    /* border-bottom: 1px solid var(--dark-blue); */
     font-weight: 500;
     transition-property: color;
     transition-duration: .08s;
@@ -50,7 +51,6 @@ p a:hover::after, ul a:hover::after {
 hr {
     background-color: var(--yellow);
     border: none;
-    /* color: #bbb; */
     height: 1px;
 }
 
@@ -104,28 +104,14 @@ header {
     padding-top: 75px;
 }
 
-/* h1 {
-    text-transform: lowercase;
-    border: 3px solid var(--dark-blue);
-    padding: 5px 10px;
-    display: inline-block;
-} */
-
 h1 {
     text-transform: lowercase;
     border: 3px solid var(--dark-blue);
     padding: 5px 10px;
     display: inline-block;
-    /* grid-template-columns: 1fr auto 1fr;
-    gap: 3rem; */
+    margin-left: auto;
+    margin-right: auto;
 }
-
-/* Typographic experimentation with decorated borders */
-/* h1::before, h1::after {
-    color: var(--dark-blue);
-    content: '\00a0';
-    background: url('https://openclipart.org/image/800px/103675') repeat-x center / 50% auto;
-} */
 
 h1:hover {
     background-color: var(--dark-blue);
@@ -137,7 +123,7 @@ p {
 }
 
 footer {
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 20px;
     text-align: center;
     font-size: .8em;
@@ -182,11 +168,12 @@ footer ul a:hover {
     color: var(--pink)
 }
 
+/*************************/
+/* HOMEPAGE STYLES */
+/*************************/
+
 #homepage {
     background-color: var(--light-blue);
-    /* opacity: 0.8; */
-    /* background-image:  linear-gradient(#ffffff 1px, transparent 1px), linear-gradient(to right, #ffffff 1px, #e5e5f7 1px); */
-/* background-size: 20px 20px; */
     text-align: center;
     padding-bottom: 80px;
 }
@@ -197,7 +184,6 @@ footer ul a:hover {
 
 #home-main {
     padding-top: 60px;
-    padding-bottom: 40px;
 }
 
 #selfie {
@@ -264,39 +250,13 @@ footer ul a:hover {
     color: var(--dark-blue);
 }
 
+/*************************/
+/* ABOUT PAGE STYLES */
+/*************************/
+
 mark {
     background-color: rgba(225, 168, 25, 0.756);
     padding: 3px;
-}
-
-.pair {
-    /* margin: 0; */
-    font-size: smaller;
-    font-weight: bold;
-}
-
-.pair::before {
-    content: "‣";
-    padding-right: 10px;
-}
-
-time {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: smaller;
-}
-
-.yay {
-    font-weight: 500;
-}
-
-#hi {
-    /* background-color: white; */
-    text-align: center;
-}
-
-#hey {
-    font-weight: 600;
 }
 
 #redwoods img {
@@ -352,6 +312,37 @@ time {
     display: none;
 }
 
+/*************************/
+/* PORTFOLIO PAGE STYLES */
+/*************************/
+.pair {
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.pair::before {
+    content: "‣";
+    padding-right: 10px;
+}
+
+time {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.yay {
+    font-weight: 500;
+}
+
+#hi {
+    text-align: center;
+}
+
+#hey {
+    font-weight: 600;
+}
+
 #projects-header {
     margin-bottom: 50px;
 }
@@ -363,6 +354,7 @@ time {
 #projects h2 {
     background-color: black;
     color: var(--mint);
+    border-bottom: 1px solid white;
     text-align: center;
     transition-property: background-color;
     transition-duration: .08s;
@@ -386,12 +378,15 @@ time {
 
 #projects article {
     background-color: var(--light-blue);
-    margin-bottom: 30px;
 }
 
 #projects article :is(div, p) {
     padding-left: 40px;
     padding-right: 40px;
+}
+
+#projects article:is(#adagrams, #viewing-party) {
+    margin-bottom: 0;
 }
 
 .description {
@@ -419,7 +414,9 @@ code {
     color: var(--pink);
 }
 
+/*****************/
 /* MEDIA QUERIES */
+/*****************/
 
 /* DESKTOP SIZES */
 @media screen and (min-width: 1225px) {
