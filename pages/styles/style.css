@@ -1,0 +1,99 @@
+
+body {
+    background-color: beige;
+    margin: auto 20px;    
+}
+header {
+    padding:2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+h1:hover {
+    color: teal;
+  }
+  p::selection {
+    color: yellow;
+    background-color: black;
+  }
+
+  .paragraph {
+    line-height: 30px;
+  }
+
+ [href="http://www.github.com"] 
+/* to style a specific link not all a 's*/
+/* we can do also style a for all a's */
+{
+  color: olive;
+} 
+
+nav ul, footer ul {
+  list-style-type: none;
+  display : flex;
+  flex-direction: row;  
+  flex-wrap: wrap;
+  justify-content: space-evenly; 
+  align-content: center;
+  width : 80vw;
+  height:4vw; 
+}
+
+.me {
+  display :grid;
+  grid-template-columns: 40% 30%; 
+  justify-content: space-evenly; 
+} 
+
+/* .me {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+} */
+.nav {
+  background-color:wheat
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color : red;
+}
+
+footer {
+  border-top :black 1px solid;
+  /* position: fixed;
+  bottom: 0; */
+}
+
+#roza {
+max-width: 50%;
+}
+
+.port li  {
+  margin-bottom : 30px;
+}
+
+.port a {
+  font-style: italic;
+  font-size:1.2em;
+}
+
+.container {
+  display : grid;
+  grid-template: 1fr 1fr 1fr/1fr 1fr 1fr;
+  justify-items: center;
+  align-items : center;
+}
+
+body {  
+  display:grid; 
+  grid-template-rows: auto 8fr 1fr;
+} 
+/* 
+p {
+    color: rgb(23,67,89); }*/
+  
+
