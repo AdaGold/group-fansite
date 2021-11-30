@@ -12,13 +12,18 @@ header {
 h1:hover {
     color: teal;
   }
-  p::selection {
+  
+h1 {
+  text-align: center;
+}
+p::selection {
     color: yellow;
     background-color: black;
   }
 
-  .paragraph {
+.paragraph {
     line-height: 30px;
+    font-size: 1.5em;
   }
 
  [href="http://www.github.com"] 
@@ -74,6 +79,7 @@ max-width: 50%;
 
 .port li  {
   margin-bottom : 30px;
+  font-size: 1.2em;
 }
 
 .port a {
@@ -90,7 +96,7 @@ max-width: 50%;
 
 body {  
   display:grid; 
-  grid-template-rows: auto 8fr 1fr;
+  grid-template-rows: auto auto 8fr 1fr;
 } 
 /* 
 p {
