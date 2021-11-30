@@ -188,6 +188,7 @@ button {
     margin-bottom: 20px;
     border-top: 1.4px solid rgba(255,255,255,0.20);
     text-align: center;
+    color: rgb(113, 125, 135);
     font-size: smaller;
     width:100;
     }
@@ -273,16 +274,12 @@ header:hover {
     text-align:center;
    }
 
-.intro-header {
+.intro-container {
     display: flex;
     height: 620px;
     margin-bottom: 100px;
     justify-content: center;
     align-items: center;
-    background-color: #f4f4f4;
-    background-size: cover;
-    color: #fff;
-    background: transparent;
    }
 
 .intro-content {
