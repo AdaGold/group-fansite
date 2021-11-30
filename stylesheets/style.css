@@ -146,18 +146,16 @@ button {
     align-items: left;
     text-transform: uppercase;
     vertical-align: middle;
-    color: #D4204B;
+    color: #d9d343;
     opacity: 1;
     font-size: 24px;
     padding-bottom: 36px;
-    text-transform: none;
   }
 
 .decorator-profile {
     vertical-align: middle;
     color: #d9d343 ;
     font-size: 16px;
-    text-transform: none;
   }
 
 .fab {
@@ -223,6 +221,7 @@ figure > img:hover {
 h2 {
     font-size: 100px;
     text-align: left;
+    padding-top: 96px;
     }
 
 html {
@@ -359,7 +358,6 @@ p {
 
 #pronouns {
     font-size: 16px;
-    text-transform: none;
     color: #D4204B;
    }
 
