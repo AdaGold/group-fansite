@@ -1,0 +1,37 @@
+header {
+    background-color:rgb(31, 113, 101);
+}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+#main {
+    background-image: url('https://thumbs.gfycat.com/QuestionablePeriodicGharial-size_restricted.gif');
+    background-size: cover;
+    height: 80vh;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    margin-top: 1.2 em;
+    text-align: center;
+}
+
+.top-bottom-links{
+    padding: 1em;
+    display: flex;
+    flex: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color:rgb(114, 106, 233);
+    
+}
+#about-picture {
+    display: inline-block;
+    width: 22%;
+}
+.about-me{
+    float: left;
+    width: 75%;
+    vertical-align: top;
+}
