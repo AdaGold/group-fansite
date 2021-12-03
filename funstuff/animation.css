@@ -1,0 +1,33 @@
+svg {
+    width: 40%;
+    fill: #5D576B;
+    fill-opacity: 100;
+    animation: fadeOpacity 2s forwards 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  svg path {
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+    animation: draw 3s forwards;
+  }
+  
+  @keyframes draw {
+    from {
+      stroke-dashoffset: 1;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  @keyframes fadeOpacity {
+    from {
+      fill-opacity: 0;
+    }
+    to {
+      fill-opacity: 1;
+    }
+  }
+  
+  
