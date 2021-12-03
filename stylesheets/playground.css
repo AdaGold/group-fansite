@@ -55,7 +55,7 @@ footer a:hover{
 
       .body-background { grid-area: 6 / 1 / 10 / 7;background-color: seagreen; position: fixed; top: 18%; left: 0; right: 0; height: 100%;}
 
-      .body-padding{ grid-area: 6/ 1 / 7 / 7; ;z-index: 1;  height: 30%; padding-top: 25%;}
+      .body-padding{ grid-area: 6/ 1 / 7 / 7; ;z-index: 1;  height: 30%; padding-top: 25%; }
 
       .svgcontainer1 { grid-area: 7 / 3 / 8/ 4; padding-top: 30px;background-color: rgb(255, 92, 138); z-index:1; height:  250px; width: 400px; display:flex}
       .svgcontainer2{ grid-area: 7 / 4 / 8 / 5; padding-top: 30px; background-color: chartreuse; z-index:1; height: 250px; width: 400px; display:flex}
@@ -77,6 +77,10 @@ footer a:hover{
         background-color: #ffc400;    
     }
     #logo
+    {
+        float:left;
+    }
+    #icanbranch
     {
         float:left;
     }
@@ -104,7 +108,6 @@ footer a:hover{
     figure {
       margin: 0;
   }
-  
 
     /*animation*/
 

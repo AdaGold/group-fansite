@@ -32,7 +32,7 @@ body h3{
   font-family: Varela,sans-serif;
 
 }
-#portfolio-text{
+.portfolio-text{
     padding-left: 20px;
     padding-right: 50px;
     padding-top: 50;
@@ -130,9 +130,12 @@ footer a:hover{
         margin: 0;
         }
 
-        .body-padding{  background-color:rgb(4, 180, 233); height:400px; width: 100%;z-index: 1;}
+        .body-padding{  background-color:rgb(4, 180, 233); height:400px; width: 100%;z-index: 1; border-top: 20px solid orange;}
+        .body-padding-no-border{  background-color:rgb(4, 180, 233); height:400px; width: 100%;z-index: 1}
         .title-area-full-width{ background-color:   rgb(96, 190, 2); height: 100px; width: 100%; z-index: 1;}
-        .content-area-full-width{background-color: white;  height: 300px; width: 100% ; z-index: 1;}
+        .title-area-orange-border{ background-color:   rgb(96, 190, 2); height: 100px; width: 100%; z-index: 1; border-top: 20px solid orange;}
+        .content-area-full-width{background-color: white;  height: 300px; width: 100% ; z-index: 1; border-top: 20px solid orange;}
+        .content-area-no-border{background-color: white;  height: 300px; width: 100% ; z-index: 1; }
 
 .section-title-container{
   height:400px;
@@ -153,7 +156,7 @@ footer a:hover{
                  15px 10px 0px #052939, 
                  18px 12px 0px #c11a2b;
         }
-#portfolio-title{ 
+.portfolio-title{ 
     padding-top: 10px;
     padding-right: 30px;
     text-align: right;
@@ -186,6 +189,11 @@ footer a:hover{
     display: flex;
 }
 
+.content-container-orange-border {
+    border-top: 20px solid orange;
+    display: flex;
+}
+
 .content-child {
     flex: 1;
     height: 300px;
@@ -204,7 +212,7 @@ footer a:hover{
     margin-right: 20px;
 } 
 
-#photocrop{
+.photocrop{
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -225,6 +233,10 @@ footer a:hover{
         background-color: #ffc400;    
 }
 #logo
+{
+    float:left;
+}
+#icanbranch
 {
     float:left;
 }
