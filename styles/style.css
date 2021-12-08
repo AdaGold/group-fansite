@@ -1,0 +1,62 @@
+body {
+    font-family: sans-serif;
+    background-color: white;
+}
+
+
+h1 {
+    /* text-decoration: none; */
+    text-align: center;
+    color: blue;
+}
+
+p {
+    line-height: 150%;
+    color: blue
+}
+
+header{
+    display: block;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+}
+section {
+    display: flex;
+}
+
+
+/* .flex-child {
+    flex: 1;
+    border: 2px solid red;
+    margin-right: 20px;
+} */
+
+/* .flex-child:first-child {
+    margin-right: 20px;
+} */
+/* .container {
+    height: 100%;
+    width: 100%;
+  /*  Section 1: Add flex  */
+    /* display: flex;
+    
+  /*  Section 2: controlling flow  */
+    /* flex-direction: row;
+    justify-content: center; */ 
+    
+  /*  Section 3: controlling wrap  */
+    /* flex-wrap: wrap;   */
+/* } */
+/* .container {
+    border: red 2px dotted;
+    max-height: 500px;
+}
+
+.container>div {
+    min-width: 50px;
+    min-height: 50px;
+    border-right: lightblue 2px solid;
+} */
+
