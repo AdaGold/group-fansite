@@ -10,20 +10,31 @@ h1 {
     color: blue;
 }
 
+h2 {
+    color:blue;
+}
+
 p {
     line-height: 150%;
     color: blue
+    
 }
 
 header{
-    display: block;
-}
-nav {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+nav {
+    text-align: center;
+    display: inline-block
+    /* flex-direction: column; */
 }
 section {
-    display: flex;
+    width: 50vw;
+    height: 100vw;
+    padding: 10vw;
+    margin: 0 auto;
 }
 
 
