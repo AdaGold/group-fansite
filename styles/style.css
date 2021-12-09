@@ -17,13 +17,13 @@ h1 {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 26px;
     font-weight:bold;
     margin: 5;
 }
 
 p {
-    font-size: 17px;
+    font-size: 22px;
     line-height: 150%;
     margin: 0;
 }
@@ -51,7 +51,7 @@ section {
     transform: translate(-50%, -50%);
     /* border: 5px solid #FFFF00; */
     padding: 10px;
-    width: 40vw;
+    width: 50vw;
 }
 
 img {
