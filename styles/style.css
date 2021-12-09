@@ -8,6 +8,8 @@ h1 {
     /* text-decoration: none; */
     text-align: center;
     color: blue;
+    font-size: 10vw;
+    margin: 5px;
 }
 
 h2 {
@@ -20,12 +22,16 @@ p {
 
 }
 
-header{
+.header{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center;
+    align-items: center; */
 }
 nav {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; */
     text-align: center;
     display: inline-block;
     /* flex-direction: column; */
