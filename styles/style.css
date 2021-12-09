@@ -17,7 +17,7 @@ h2 {
 p {
     line-height: 150%;
     color: blue
-    
+
 }
 
 header{
@@ -27,7 +27,7 @@ header{
 }
 nav {
     text-align: center;
-    display: inline-block
+    display: inline-block;
     /* flex-direction: column; */
 }
 section {
@@ -37,6 +37,17 @@ section {
     margin: 0 auto;
 }
 
+img {
+    width: 60vw;
+    height: 40vw;
+}
+.pic {
+    display: flex;
+    justify-content: space-evenly;
+    /* width: 60%; */
+    padding: 10vw;
+    margin: 0 auto;
+}
 
 /* .flex-child {
     flex: 1;
