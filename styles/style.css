@@ -52,6 +52,8 @@ section {
     /* border: 5px solid #FFFF00; */
     padding: 10px;
     width: 50vw;
+    /* background-color: yellow;
+    border: solid 3px red; */
 }
 
 img {
@@ -65,6 +67,14 @@ img {
     padding: 10vw;
     margin: 0 auto;
 }
+
+.links {
+    font-size: 20px;
+    padding: 5px;
+    /* margin-left: 20%; */
+
+}
+
 
 
 
