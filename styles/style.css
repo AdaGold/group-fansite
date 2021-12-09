@@ -1,6 +1,7 @@
 body {
     font-family: sans-serif;
     background-color: white;
+    color: blue;
 }
 
 header {
@@ -14,14 +15,12 @@ header {
 h1 {
     /* text-decoration: none; */
     text-align: center;
-    color: blue;
     font-size: 10vw;
     margin: 5px;
 }
 
 p {
     line-height: 150%;
-    color: blue
 
 }
 
@@ -51,7 +50,7 @@ section {
 }
 
 h2 {
-    color:red;
+    /* color:red; */
     font-style: normal;
 }
 
