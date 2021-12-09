@@ -3,6 +3,13 @@ body {
     background-color: white;
 }
 
+header {
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+
+
+}
 
 h1 {
     /* text-decoration: none; */
@@ -12,35 +19,40 @@ h1 {
     margin: 5px;
 }
 
-h2 {
-    color:blue;
-}
-
 p {
     line-height: 150%;
     color: blue
 
 }
 
-.header{
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
-}
 nav {
-    /* display: flex;
+    font-size: 5vw;
+    display: flex;
     flex-direction: row;
-    justify-content: space-evenly; */
-    text-align: center;
-    display: inline-block;
+    justify-content: space-evenly;
+    
+
     /* flex-direction: column; */
 }
+a:link {
+    text-decoration: none;
+}
+
+a:hover, h1:hover {
+    color: red;
+}
+
+
 section {
-    width: 50vw;
-    height: 100vw;
-    padding: 10vw;
+    font-size: 16px;
+    width: 90%;
+    height: 50%;
     margin: 0 auto;
+}
+
+h2 {
+    color:red;
+    font-style: normal;
 }
 
 img {
