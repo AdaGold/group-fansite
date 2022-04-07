@@ -10,7 +10,7 @@ It is common for developers to create a website to show off their web-dev skills
 - Other materials to share any non-coding interests and hobbies
 - A site designed to express themselves
 
-We will HTML & CSS to create a static site whose content is our personal portfolio. Our personal portfolio site should contain information about ourselves and the coding work we've done.
+We will use HTML & CSS to create a static site whose content is our personal portfolio. Our personal portfolio site should contain information about ourselves and the coding work we've done.
 
 ### Some Inspiration
 - [http://lizabinante.com/](http://lizabinante.com/)
@@ -29,7 +29,7 @@ We will HTML & CSS to create a static site whose content is our personal portfol
 
 ### Only Use Static HTML and CSS
 
-We should only use static HTML and CSS for this project. Preprocessors (haml, erb, sass, less, etc.) and Javascript of any kind are not allowed. All submitted HTML needs to pass as valid HTML through an HTML Validator.
+We should only use static HTML and CSS for this project. Preprocessors (haml, erb, sass, less, etc.) and Javascript of any kind are not allowed. All submitted HTML needs to pass as valid HTML through an [HTML Validator](https://validator.w3.org/).
 
 ## Wave 1 - Basic HTML
 
