@@ -1,0 +1,38 @@
+/* MUST USE: a grid container with a few grid items
+/* a flexbox container with a few flex items  */
+/* Both of these containers do not need to be on the same page. 
+Try using one for one page, and the other for another page! */
+
+body{
+    background-color: #000000;
+    text-align: justify;
+    color: blanchedalmond;
+}
+
+header{
+    background-color: rgb(101, 101, 209);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.page-nav{
+    font-size: .5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden;
+    background-color: rgb(168, 57, 57);
+}
+
+.page-nav a {
+    float:inline-end;
+    /* display: block; */
+    color: #d8b6b6;
+    font-variant: small-caps;
+    text-align: justify;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Links - change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
