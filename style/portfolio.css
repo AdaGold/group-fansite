@@ -1,92 +1,120 @@
-header{
-    background-color: rgb(101, 101, 209);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+body {
+  background-color: rgb(116, 110, 110);
+  margin: 0;
+  font-family: helvetica;
+  display:-ms-flexbox;
+  grid-template-columns: 45% auto 45%;
+  grid-template-rows: .5fr 1fr .25fr;
+  color: #3e3e3e;
+  /* font-weight: 300; */
 }
 
-.page-nav{
-    font-size: .5em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    overflow: hidden;
-    background-color: rgb(168, 57, 57);
+header {
+  text-align: center;
+  margin-top: 5em;
+  grid-column: 2/3;
+  grid-row: 1/2;
 }
 
-.page-nav a {
-    float:inline-end;
-    /* display: block; */
-    color: #d8b6b6;
-    font-variant: small-caps;
-    text-align: justify;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+header nav li {
+  font-size: .5em;
+  background-color: #f3f3f3;
+  padding: .5em;
+  border-radius: 10px;
+}
 
-/* FLEX BOX */
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #3e3e3e;
+}
+
+main {
+  grid-column: 1/4;
+  grid-row: 2/3;
+  background-color:#080808;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
 .container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    width: 800px;
-    height: 400px;
-    margin: 10px;
-    background-color: lightgrey;
-  }
-  
+  position: relative;
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+  /* justify-content: space-around; */
+  /* text-align: center; */
+  /* color: white; */
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+  padding:5%;
 
-  
-  div {
-    width: 150px;
-    height: 150px;
-    background-color: hotpink;
-  }
-/*   
-  #navigation {
-    width: 750px;
-    background-color: blue;
-  }
-   */
+}
+
+.container img{
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
 
 
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+/* .centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  transform: translate(-50%, -50%);
+} */
 
 
+/* section {
+  width: 500px;
+} */
+
+section img {
+  width: 100%;
+}
+
+footer {
+  grid-column: 1/4;
+  grid-row: 3/span 4;
+  background-color: #3e3e3e;
+}
+
+footer a {
+  color: whitesmoke;
+}
 
 
-
-
-
-
-/* GRID BOX */
-/* .project-container {
-
-    width: 700px;
-    height: 400px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  }
-  
-
-  #hello-books{
-    background-color: orange;
-    grid-column: 1 / 5;
-  }
-
-  #snowman{
-    background-color: blue;
-    grid-column: 2 / 5;
-    /* grid-row: 2/4; */
-  /* } 
-   */
-  #task-list{
-    background-color: yellow;
-    grid-column: 1 / 1;
-    grid-row: 2 / 5;
-  }
-  
-  #viewing-party{
-    background-color: green;
-    grid-column: 2 / 5;
-    grid-row: 2 / 4;
-  }
-   

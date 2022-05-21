@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family: helvetica;
+    display: grid;
+    grid-template-columns: 10% auto 10%;
+    grid-template-rows: .5fr 1fr .25fr;
+    color: #3e3e3e;
+
+    /* font-weight: 300; */
+  }
+
+
+
+header {
+    background-color: black;
+    text-align: center;
+    margin-top: 5em;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color:blanchedalmond;
+    font-weight: lighter;
+  }
+
+.page-nav li {
+    
+    background-color: #837272;
+    padding: .1em;
+    border-radius: 10px;
+    font-size: smaller;
+  }
+
+.page-nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+
+
+}
+

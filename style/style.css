@@ -4,13 +4,16 @@
 Try using one for one page, and the other for another page! */
 
 body{
-    background-color: #000000;
+    margin:0;
+    display: grid;
+    grid-template-columns: 10% auto 10%;
     text-align: justify;
     color: blanchedalmond;
+    background-image:image-set();
 }
 
 header{
-    background-color: rgb(101, 101, 209);
+
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
