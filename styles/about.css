@@ -1,12 +1,13 @@
 .main-content {
     margin: 67px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.25fr 0.5fr 3fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.25fr 0.5fr 2fr 2fr;
     grid-template-areas: 
-    "title title title title"
-    "summary summary summary summary"
-    "article1 article2 article3 article4";
+    "title title title"
+    "summary summary summary"
+    "article1 article3 article5"
+    "article2 article4 article6";
     gap: 17px 47px;
 }
 
@@ -35,4 +36,8 @@ h1 {
 
 #article4 {
     grid-area: article4;
+}
+
+#article5 {
+    grid-area: article5;
 }
