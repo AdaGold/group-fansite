@@ -1,0 +1,85 @@
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1.5fr;
+    grid-template-areas: 
+    ". . ."
+    ". main ."
+    "eggs eggs eggs";
+    gap: 17px 17px;
+    flex-wrap: no;
+}
+
+h1 {
+    grid-area: main;
+    font-size: 47px;
+    text-align: center;
+    transition: transform .5s;
+}
+
+h1:hover {
+    transform: scale(1.3);
+    color: #F4BB29;
+}
+
+#eggs {
+    grid-area: eggs;
+    text-align: center;
+}
+
+/* #eggs div {
+    background-image: url("../images/egg.png");
+    opacity: 0;
+}
+
+h1:hover + #eggs div {
+    animation: fadeIn 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+} */
+
+/* @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+} */
+
+/* @keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+} */
+
+#eggs img {
+    margin: 17px;
+    visibility: hidden;
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+}
+
+h1:hover + #eggs img {
+    visibility: visible;
+}
+
+/* @keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+} */
+
+@media (max-width:560px) {
+    #eggs img {
+        width: 57px;
+        height: 57px;
+    }
+}
+
+
+/* set min width or min height */

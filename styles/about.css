@@ -1,0 +1,38 @@
+.main-content {
+    margin: 67px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.25fr 0.5fr 3fr;
+    grid-template-areas: 
+    "title title title title"
+    "summary summary summary summary"
+    "article1 article2 article3 article4";
+    gap: 17px 47px;
+}
+
+h1 {
+    margin: 0;
+    grid-area: title;
+    font-size: 47px;
+    justify-self: start;
+}
+
+.main-content p {
+    grid-area: summary;
+}
+
+#article1 {
+    grid-area: article1;
+}
+
+#article2 {
+    grid-area: article2;
+}
+
+#article3 {
+    grid-area: article3;
+}
+
+#article4 {
+    grid-area: article4;
+}
