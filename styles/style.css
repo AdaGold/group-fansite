@@ -1,0 +1,86 @@
+h1 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 3em;
+}
+
+body {
+    background-color: lightblue;
+}
+
+nav {
+    font-family: sans-serif;
+}
+
+p {
+    font-family: sans-serif;
+    color: white;
+    background-color: lightseagreen;
+}
+
+footer h4 {
+    font-family: sans-serif;
+    color: lightseagreen;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+/* li {
+    list-style: none;
+} */
+
+.container {
+    width: 100vw;
+    height: 100vh;
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+#top {
+    background-color: lightcoral;
+    grid-column: 1 / 5;
+    grid-row: 1 / 1;
+    border: white 1px solid;
+}
+
+#introduction {
+    grid-row: 2 / 2;
+    grid-column: 1 / 3;
+}
+  
+#last {
+    grid-column: 1 / 5;
+    grid-row: 3 / 3;
+}
+
+/* * {
+    border: black 1px solid;
+} */
+
+#portfolio_title {
+    border: white 1px solid;
+}
+
+#index_title {
+    border: white 1px solid;
+}
+
+#portfolio_links {
+    font-family: sans-serif;
+    color: white;
+    background-color: lightcoral;
+}
+
+#website_nav {
+    font-family: sans-serif;
+    color: white;
+}
+
+.portfolio_container {
+    display: flex;
+    flex-direction: column;
+    
+}
