@@ -5,9 +5,20 @@ Congratulations! You're submitting your assignment!
 Question | Answer
 :------------- | :-------------
 Did you have to resolve any issues when running the HTML Validator? If so, what were they? |
+No
+
 Why is it important to consider and use semantic HTML? |
+It makes the HTML more readable by giving more semantic meaning to the code. 
+
 How did you decide to structure your CSS? |
+I used tag selectors, ID selectors, pseudo classes, and class selectors. I also selected based on relationship. 
+
+
 What was the most challenging piece of this assignment? |
+Flexbox and grid, deciding what to put on my portfolio!
+
 Describe one area that you gained more clarity on when completing this assignment |
+FLexbox and grid
+
 **Optional** |
 Did you deploy to GitHub Pages? If so, what is the URL to your website? |
