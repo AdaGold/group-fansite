@@ -38,6 +38,13 @@
     margin: 0px;
 }
 
+#links {
+    grid-row: 1/4;
+    grid-column: 3/4;
+    text-align: right;
+    color: white;
+}
+
 i {
     margin-left: 25px;
 }
