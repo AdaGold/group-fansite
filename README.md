@@ -1,5 +1,8 @@
 # Personal Portfolio Site
 
+LINK TO REPO: https://github.com/jaekerrclayton/personal-portfolio-site.git
+
+
 ## Introduction
 
 It is common for developers to create a website to show off their web-dev skills and document their work and interests. These sites often feature things like:

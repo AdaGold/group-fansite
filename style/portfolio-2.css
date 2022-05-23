@@ -1,0 +1,34 @@
+.container {
+    /* these are just an arbitrary widths and heights to look good on our browser */
+    /* width: 30vw;
+    height: 60vh; */
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr 1fr/ 1fr 1fr 1fr 1fr;
+   
+  }
+  
+  .header {
+    background-color: #d55e00;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2
+  }
+  
+  .nav {
+    background-color: #f0e442;
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+
+  }
+  
+  .content {
+    background-color: #009e73;
+    grid-column: 1 / 4;
+    grid-row: 3 / 5;
+  }
+  
+  .footer {
+    background-color: #0072b2;
+    background-color: #009e73;
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+  }
