@@ -1,0 +1,60 @@
+
+
+/* #hello {
+    background-color: lightpink;
+    top: 25%;
+    left: 0px;
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    text-align: center;
+} */
+
+.name_container {
+    display: grid;
+    width: 700px;
+    /* background: grey; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    text-align: center;
+    margin: auto;
+    height: 100%;
+}
+
+#name_text {
+
+    /* background-color: yellow; */
+    grid-column: 1 / 4;
+    grid-row: 1 / 4;
+    text-align: left;
+    padding: 10px;
+    color: white;
+}
+
+#name_text h1 {
+    line-height: 80%;
+    font-size: 50pt;
+    font-weight: lighter;
+    margin: 0px;
+}
+
+i {
+    margin-left: 25px;
+}
+
+/* nav {
+    text-align: right;
+    background: none;
+    padding: none;
+
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20pt;
+    font-weight: lighter;
+    background: white;
+    padding-left: 20px;
+    line-height: 125%;
+    color: black;
+} */

@@ -1,0 +1,19 @@
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+
+
+.project {
+    width: 250px;
+    height: 250px;
+    background-color: #f49cbb;
+    margin: 10px;
+    padding: 20px;
+}
