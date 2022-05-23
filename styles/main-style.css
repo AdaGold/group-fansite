@@ -1,0 +1,45 @@
+
+body {
+    background: linear-gradient(to bottom, #FFCADD, white 190%) no-repeat fixed; 
+    padding: none;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 14pt;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 2fr 20px;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+main{
+    grid-row: 2 / 3;
+}
+header {
+    grid-row: 1 / 2;
+}
+
+nav {
+    text-align: left;
+    margin: 5px;
+    margin-left: 0px;
+
+}
+
+nav a {
+    font-size: 20pt;
+    text-decoration: none;
+    color: #FFCADD;
+    letter-spacing: .1em;
+    background-color: white;
+    padding: 5px;
+}
+
+footer {
+    text-align: right;
+    grid-row: 3/4;
+    padding-right: 10px;
+}
