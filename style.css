@@ -29,6 +29,7 @@
   font-weight:1;
   width: 125%;
   text-align: left;
+  background-color: rgba(252, 255, 254, 0.213) ;
 }
 
 
@@ -39,7 +40,7 @@
 .hero_desc {
   position: relative;
   bottom:13rem;
-  transform: translate(98%, 200%);
+  transform: translate(100%, -80%);
   text-indent: 30em;
   font-size: 1rem;
   width: 100rem;
@@ -55,34 +56,22 @@
   color: rgb(255, 255, 255);
 }
 
-#contact {
-  padding-bottom: 4rem;
-}
 /* about section image css */
 .imageAboutPage {
   height:20rem;
   padding-left: 53rem;
-  padding-right:63rem;
+  padding-right:57rem;
   background-color: #1839358f;
 }
-
 
 /* social media icons styling */
 .social-icons {
   font-size: 36px;
   cursor: pointer;
 }
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
-  color: #008000;
-}
-.fab {
-  color: #000000;
-}
+
+
 /* footer styling */
-#footer {
-  background-color: rgba(184, 236, 217, 0.462);
-  text-align: center;
-}
 
 
 .navbar-name{
