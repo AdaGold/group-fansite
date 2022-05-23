@@ -1,0 +1,133 @@
+
+.border {
+  display: grid;
+  align-content: center;
+  height: 5rem;
+  }
+
+/* background image */
+.bgimage {
+  position:relative;
+  height: 45rem;
+  width: 128rem;
+  margin-left: 0rem;
+  /* padding-left:110vw; */
+  background: url('images/what-is-human-centered-design-1160x387.jpeg');
+  background-size:cover;
+}
+
+.hero_title {
+  margin-top: 18rem;
+  position:relative;
+  block-size: 18rem;
+  padding-top: 1rem;
+  padding-left: 3rem;
+  padding-bottom:1rem;
+  transform: translate(78%, -20%);
+  font-size: 2.3rem;
+  color: rgb(252, 251, 251);
+  font-weight:1;
+  width: 125%;
+  text-align: left;
+  background-color: rgba(252, 255, 254, 0.213) ;
+}
+
+
+.last{
+  background-color: rgb(184, 236, 217);
+}
+
+.hero_desc {
+  position: relative;
+  bottom:13rem;
+  transform: translate(100%, -80%);
+  text-indent: 30em;
+  font-size: 1rem;
+  width: 100rem;
+  text-align:left;
+}
+
+.hero-text {
+  text-align: start;
+  position:absolute;
+  block-size: 18rem;
+  font-size:larger;
+  transform: translate(-100%,0%);
+  color: rgb(255, 255, 255);
+}
+
+/* about section image css */
+.imageAboutPage {
+  height:20rem;
+  padding-left: 53rem;
+  padding-right:57rem;
+  background-color: #1839358f;
+}
+
+/* social media icons styling */
+.social-icons {
+  font-size: 36px;
+  cursor: pointer;
+}
+
+
+/* footer styling */
+
+
+.navbar-name{
+  position: relative;
+  block-size: 125rem;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight:1;
+  align-content: center;
+  word-spacing: 1px;
+  letter-spacing: 15px;
+  color:#ffffff;
+  width: 100rem;
+  margin-left: 51rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-link{color:white; text-decoration: none; padding-right:55px;padding-left:63px; letter-spacing: 18px;background-color: rgba(10, 10, 10);list-style: none; text-align: center; margin-right: 3.5rem;margin-left: 8rem;justify-content: center;}
+
+
+.navbar-nav{display:flex;
+  flex-direction:row;
+  padding-left:16rem;
+  margin-bottom:0;
+  list-style:none}
+
+
+.nav-link:hover{
+  color:#ffffffbf
+}
+
+.nav-item:hover{
+  color:rgba(255,255,255,.75)
+}
+
+a .nav-link:hover{
+  color:rgba(255,255,255,.75) 
+}
+.text-center{
+  font-size: 2rem;
+  width: 100rem;
+  color: rgb(253, 253, 253);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 12rem;
+  font-weight: lighter;
+  letter-spacing: 3rem;
+
+}
+
+
+.about-text {
+  width: 35rem;
+  text-justify:right;
+  padding-top:1rem;
+  font-weight:1rem;
+  margin-top:10;
+  margin-left: 43rem;
+}

@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+* {
+    font-family: Roboto;
+}
+
+.footer-left {
+    color: #8f9296;
+    font-size: 14px;
+    margin-left:80px;
+    align-content: center;
+}
+.footer-center p {
+    color: #ffffff;
+    block-size: 2rem;
+    width:80rem;
+    font-size: 18px;
+    padding-left: 45rem;
+    padding-top: 0.5rem;
+    letter-spacing: 1rem;
+    background-color: rgba(10, 10, 10);
+
+}
+/* Footer links */
+.footer-text {    
+    position:relative;
+    block-size: 3rem;
+    font-size: 2rem;
+    font-weight:lighter;
+    width: 100rem;
+    letter-spacing: 30px;
+    margin-left:16rem;
+    text-align: center;
+    color: white;
+}
+
+.footer-distributed p.footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    transition: ease .25s;
+}
+
+
+
+.footer-distributed .footer-right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70rem;
+    align-items: center;
+    margin-left: 29rem;
+    /* margin-right: 10em; */
+    height: 130px;
+    background-color: rgba(184, 236, 217, 0.462);
+}
+
+.footer-distributed .footer-right a {
+    display:inline-block;
+    width: 40px;
+    height: 35px;
+    padding-right: 4px;
+    padding-top: 10px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 14px;
+    margin-left: 0rem;
+    transition:all .25s;
+}
+
+
+a[href*="twitter.com/"] {
+    background:url(https://twitter.com/favicon.ico) no-repeat left center;
+    padding: 0.5rem;
+    background-size:2rem;
+    background-position: center;
+
+    }
+
+a[href*="linkedin.com/"] {
+    background:url(https://www.linkedin.com/favicon.ico) no-repeat left center;
+    padding: 0.5rem;
+    background-size:2rem;
+    background-position: center;
+
+    }
+
+a[href*="github.com/"] {
+    background:url(https://www.github.com/favicon.ico) no-repeat left center;
+    padding: 0.5rem;
+    background-size:2rem;
+    background-position: center;
+
+    }
+
+a[href*="instagram.com/"] {
+    background:url(https://www.instagram.com/favicon.ico) no-repeat left center;
+    padding: 0.5rem;
+    background-size:2rem;
+    background-position: center;
+
+    }

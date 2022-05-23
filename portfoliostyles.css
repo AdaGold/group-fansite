@@ -1,0 +1,408 @@
+.portfolio-text {
+    position:relative;
+    block-size: 3rem;
+    font-size: 2.5rem;
+    font-weight:lighter;
+    width: 100rem;
+    letter-spacing: 50px;
+    margin-left:17rem;
+    text-align: center;
+    color: white;
+}
+
+.hide-text {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.nav:hover div {
+    width: 30px;
+}
+
+
+.title {
+background-color: rgba(184, 236, 217, 0.462);
+color:#ffffff;
+font-size: 45rem;
+object-fit: contain;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.project-1 {
+    background-color: rgba(184, 236, 195, 0.462);
+    background: url(/images/social-modified.png) no-repeat;
+    width:15rem;
+    height:15rem;
+    background-position: center;
+    background-size: cover;   
+    background-size: contain;
+    object-fit: contain;
+}
+
+.project-2 {
+    background-color: rrgba(184, 236, 217, 0.462);
+    background: url(images/image.png) no-repeat;
+    width:15rem;
+    height:15rem;
+    background-size: 13rem 13rem;
+    background-position: center;
+    object-fit: contain;
+}
+
+.project-3 {
+    background-color: rgba(184, 236, 217, 0.462);
+    background: url(images/tuxpi.com.1653170220.jpg) no-repeat;
+    width:15rem;
+    height:15rem;
+    background-position: center;
+    object-fit: contain;
+    background-size: contain;
+}
+
+.project-4 {
+    background-color: rgba(184, 236, 217, 0.462);
+    background: url(/images/tasky-free-ui-kit-h49-modified.png) no-repeat;
+    width:15rem;
+    height:15rem;
+    background-position: center;
+    background-size: cover;   
+    background-size: contain;
+    object-fit: contain;
+}
+
+.project-5 {
+    background-color: rgba(184, 236, 217, 0.462);
+    background: url(images/image-1.png) no-repeat;
+    width:15rem;
+    height:15rem;
+    background-size: 14rem 10rem;
+    background-position: center;
+    object-fit: contain;
+}
+
+.project-6 {
+    background-color: rgba(184, 236, 217, 0.462);
+    background: url(images/tuxpi.com.1653175765.jpg) no-repeat;
+    width:15rem;
+    height:15rem;
+    background-position: center;
+    object-fit: contain;
+    background-size: contain;
+}
+
+.project-7 {
+    background-color: rgba(184, 236, 217, 0.462);
+    background: url(/images/image6-modified.png) no-repeat;
+    width:15rem;
+    height:15rem;
+    background-position: center;
+    background-size: cover;   
+    background-size: contain;
+    object-fit: contain;
+}
+
+.project-8 {
+    background-color: rgba(184, 236, 217, 0.462);
+    background: url(images/A956-How-Effective-Is-the-Studio-System-in-Architecture-And-Design-Education-1.jpeg) no-repeat;
+    width:15rem;
+    height:15rem;
+    background-size: cover;   
+    background-size: contain;
+    object-fit: contain;
+    background-position: center;
+}
+
+.project-text {
+    text-align:center;
+    font-size:50px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 1000px;
+    margin-bottom:10px;
+    background-color: rgba(184, 236, 217, 0.462);
+    color: white;
+    text-align: center;
+}
+
+img {
+    height: 15rem;
+    width: 15rem;
+    object-fit:scale-down;
+}
+.container-4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 30%; */
+    padding-left: 19rem;
+    width: 70rem;
+    height: 600px;
+    background-color: rgba(184, 236, 217, 0.462);
+}
+
+.project-1:hover {
+    background-image:url(/images/output-onlinegiftools1.gif);
+    background-size: contain;
+    background-position: center;
+    background-color:#d6e756;
+}
+
+.portfolio-text {
+    position:relative;
+    block-size: 4rem;
+    background-color: rgba(184, 236, 217, 0.462);
+    font-size: 2.5rem;
+    font-weight:lighter;
+    width: 100rem;
+    letter-spacing: 14px;
+    right:4rem;
+    text-align: center;
+    color: white;
+}
+
+.nav:hover div {
+    width: 30px;
+}
+
+
+
+.sides {
+	border-image: linear-gradient(to right, rgba(184, 236, 217, 0.462), rgb(84, 84, 81)) 1 0;
+}
+
+.title {
+
+color:#ffffff;
+font-size: 45rem;
+object-fit: contain;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.project-1 {
+    background-color: rgba(184, 236, 195, 0.462);
+    background: url(/images/social-modified.png) no-repeat;
+    width:15rem;
+    height:15rem;
+    background-position: center;
+    background-size: cover;   
+    background-size: contain;
+    object-fit: contain;
+}
+
+.project-2 {
+    background-color: rrgba(184, 236, 217, 0.462);
+    background: url(images/image.png) no-repeat;
+    width:15rem;
+    height:15rem;
+    background-size: 13rem 13rem;
+    background-position: center;
+    object-fit: contain;
+
+}
+
+.project-3 {
+    background-color: rgba(184, 236, 217, 0.462);
+    background: url(images/tuxpi.com.1653170220.jpg) no-repeat;
+    width:15rem;
+    height:15rem;
+    background-position: center;
+    object-fit: contain;
+    background-size: contain;
+}
+
+.project-4 {
+    background-color: rgba(184, 236, 217, 0.462);
+    background: url(/images/tasky-free-ui-kit-h49-modified.png) no-repeat;
+    width:15rem;
+    height:15rem;
+    background-position: center;
+    background-size: cover;   
+    background-size: contain;
+    object-fit: contain;
+}
+
+.project-5 {
+    background-color: rgba(184, 236, 217, 0.462);
+    background: url(images/image-1.png) no-repeat;
+    width:15rem;
+    height:15rem;
+    background-size: 14rem 10rem;
+    background-position: center;
+    object-fit: contain;
+}
+
+.project-6 {
+    background-color: rgba(184, 236, 217, 0.462);
+    background: url(images/tuxpi.com.1653175765.jpg) no-repeat;
+    width:15rem;
+    height:15rem;
+    background-position: center;
+    object-fit: contain;
+    background-size: contain;
+}
+
+.project-7 {
+    background-color: rgba(184, 236, 217, 0.462);
+    background: url(/images/image6-modified.png) no-repeat;
+    width:15rem;
+    height:15rem;
+    background-position: center;
+    background-size: cover;   
+    background-size: contain;
+    object-fit: contain;
+}
+
+.project-8 {
+    background-color: rgba(184, 236, 217, 0.462);
+    background: url(images/A956-How-Effective-Is-the-Studio-System-in-Architecture-And-Design-Education-1.jpeg) no-repeat;
+    width:15rem;
+    height:15rem;
+    background-size: cover;   
+    background-size: contain;
+    object-fit: contain;
+    background-position: center;
+}
+
+.project-text {
+    text-align:center;
+    font-size:50px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 1000px;
+    margin-bottom:10px;
+    background-color: rgba(184, 236, 217, 0.462);
+    color: white;
+    text-align: center;
+}
+
+img {
+    height: 15rem;
+    width: 15rem;
+    object-fit:scale-down;
+}
+.container-4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10em;
+    margin-right: 10em;
+    width: 70rem;
+    height: 600px;
+    background-color: rgba(184, 236, 217, 0.462);
+}
+
+.project-1:hover {
+    background-image:url(/images/output-onlinegiftools1.gif);
+    background-size: contain;
+    background-position: center;
+    background-color:#d6e756;
+}
+
+.project-2:hover {
+    background-image:url(/images/2022-05-21\ 12.10.30.jpg);
+    background-size: contain;
+    background-position: center;
+    background-color:#fe4c00;
+}
+
+.project-3:hover {
+    background-color: #FEDE00;
+}
+
+.project-4:hover {
+    background-color: #d34e36;
+}
+
+.project-5:hover {
+    background-color: #FEDE00;
+}
+
+.project-6:hover {
+    background-color: #fe4c00;
+}  
+
+.project-7:hover {
+background-color: #FEDE00;
+}
+
+.project-8:hover {
+    background-image:url(/images/animation-_1_.gif);
+    width:15rem;
+    height:15rem;
+    background-size: 15rem 9rem;
+    background-position: center;
+
+    background-color: #bbe65d;
+    }
+.figure {
+    position: relative;
+    width: 360px; 
+    max-width: 100%;
+}
+
+.project-1:hover .image-hover {
+    opacity: 1;
+}
+
+.project-2:hover {
+    background-image:url(/images/2022-05-21\ 12.10.30.jpg);
+    background-size: contain;
+    background-position: center;
+    background-color:#fe4c00;
+}
+
+.project-3:hover {
+    background-color: #FEDE00;
+}
+
+.project-4:hover {
+    background-color: #d34e36;
+}
+
+.project-5:hover {
+    background-color: #FEDE00;
+}
+
+.project-6:hover {
+    background-color: #fe4c00;
+}  
+
+.project-7:hover {
+background-color: #FEDE00;
+}
+
+.project-8:hover {
+    background-image:url(/images/animation-_1_.gif);
+    width:15rem;
+    height:15rem;
+    background-size: 15rem 9rem;
+    background-position: center;
+
+    background-color: #bbe65d;
+    }
+.figure {
+    position: relative;
+    width: 360px; 
+    max-width: 100%;
+}
+
+.project-1:hover .image-hover {
+    opacity: 1;
+}
+
+
+
