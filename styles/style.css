@@ -1,70 +1,225 @@
 
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+}
+.page-text{
+    font-size: 80px;
+    position:fixed;
+}
+
+#home-text {
+    top: 15%;
+    left:4%;
+}
+
+#about-body-text{
+    font-size: 22px;
+    position: fixed;
+    top: 30%;
+    left: 16%;
+    right: 16%;
+}
+
+#about-heading{
+    font-size: 40px;
+    position: fixed;
+    top: 48%;
+    left: 16%;
+    right: 16%;
+}
+
+#tech-skills{
+    font-size: 20px;
+    position: fixed;
+    top: 57%;
+    left: 16%;
+    right: 16%;
+}
+#non-index-text{
+    top: -2%;
+    left:4%;
+}
+
 .nav-bar {
-    background-color: pink;
     display: flex;
     justify-content:space-evenly;
-    align-items: center;
+    min-height: 18vh
+}
+
+.nav-bar a{
+    color: black;
+    text-decoration:none;
+
 }
 
 .nav-bar a:hover{
-    color:green;
+    color:rgb(0, 255, 149);
 }
 
-#top-nav a{
-    text-decoration:none;
+.top-nav a{
     font-size: x-large;
 }
 
-#bottom-nav a{
-    text-decoration:none;
-    font-size:medium;
-
+#top-non-index-nav a{
+    margin-top: 21vh;
 }
 
-.p {
-    text-align: left;
-    font-size:large;
-    margin-bottom: 35%;
+
+.bottom-nav a{
+    font-size:small;
+    position: sticky;
+    margin-top: 78vh;
 }
 
-h1{
-    text-align: left;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: xx-large;
+#bottom-home-nav a{
+    margin-top: auto;
 }
 
-h2{
-    font-size: x-large;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+
+.elephant{
+    overflow: hidden;
 }
 
-.project-container{
+.elephant img{
+    position: absolute;
+    animation: move-elephant 26s linear infinite;
+    left: -350px;
+    top: 31%;
+}
+
+@keyframes move-elephant{
+    0%{
+        transform: translateX(calc(100vw + 350px));
+    }
+    
+}
+
+#line{
+    margin-top: 447px;
+    border-width:"100%";
+    border-color:black;
+}
+
+
+.art-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 30vw);
+    padding: 3%;
+}
+
+#elephant-art{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+#elephant-art:hover{
+    border-color:cyan;
+}
+
+
+#figby{
+    width: 110%;
+    height: 240%;
+    object-fit: cover;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin-left: -6%;
+}
+
+#figby:hover{
+    border-color:rgb(64, 255, 0);
+}
+
+#trigby{
+    width: 100%;
+    height: 108%;
+    object-fit: cover;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin-top: -12%;
+}
+
+#trigby:hover{
+    border-color:blue;
+}
+
+.project-grid{
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr;
-    padding:20px
-
+    padding:75px;
 }
 
-.project-container a{
-    text-align:center;
+.project-grid a{
     font-size:x-large;
     text-decoration:none;
     border-style: solid;
-    border-color: pink;
-    border-width: 10px;
-    margin:30px;
+    border-color: black;
+    border-width: 3px;
+    margin:18px;
+
+    margin-top: -50px;
+    margin-bottom: 70px;
 }
 
-.project-container a:hover{
+.project-grid a:hover{
     color:deepskyblue;
+    border-color:magenta;
 }
 
-.index-content{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: xx-large;
-    text-align:center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+
+#port-img{
+    width: 105%;
+    height: 105%;
+    object-fit: cover;  
 }
+
+#task-img{
+    width: 135%;
+    height: 135%;
+    object-fit: cover;
+    margin-top: -20px;
+    margin-left: -50px;
+}
+
+#swapmeet-img{
+    width: 125%;
+    height: 125%;
+    object-fit: cover;
+    margin-top: -10px;
+    margin-left: -50px;
+}
+
+#viewingparty-img{
+    width: 85%;
+    height: 85%;
+    object-fit: cover;  
+    margin-left: 33px;
+    margin-top: 30px;
+}
+
+
+.portfolio-caption{
+    text-align: center;
+}
+
+#tasklist-figcap{
+    margin-top: 10px;
+}
+
+#viewingparty-figcap{
+    margin-top: 54px;
+}
+
+#swapmeet-figcap{
+    margin-top: 30px;
+}
+
