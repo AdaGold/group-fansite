@@ -67,16 +67,20 @@ body{
     height: auto;
 }
 
-h3{
+
+h2, .page-subtitle{
 max-width: 100 rem;
 margin: 0 auto;
 padding: 0 1.25rem;
 font-family: 'Lato', sans-serif;
 text-align: center;
+color:rgb(219, 68, 196);
 }
 
 .images{
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-left: auto;
     margin-right: auto;
 }
@@ -141,6 +145,8 @@ text-align: center;
     background-color: rgb(170, 91, 212);
     overflow: hidden;
     position:static;
+    color:rgba(255, 255, 255, 0.83);
+    text-align: center;
 }
 
 .navbar a {
@@ -397,8 +403,6 @@ ol, li {
     flex-wrap: wrap;
     
 }
-
-
 
 .main header {
     max-width: 100 rem;
