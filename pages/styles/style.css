@@ -1,0 +1,186 @@
+:root {
+	--darkColor: #E04D01;
+	--lightColor: #f37225;
+	--primaryColor: #FEE2C5;
+	--secondaryColor: #2A2550;
+}
+
+.logo img {
+	height: 200px;
+	width: 200px;
+}
+
+.logo {
+	display: inline-flex;
+}
+
+.listnav a:hover{
+	background-color: yellow;
+  }
+
+.blogpostfoto {
+	width: 450px;
+	height: 450px;
+	padding-left: 10px;
+}
+
+
+figure img {
+	width: 150px;
+	height: 112px;
+}
+
+.avatar {
+	width: 250px;
+	height: 250px;
+}
+
+.containerbio {
+	display: inline-flex
+}
+
+
+.container {
+	/* Reminder You Set display to grid */
+	display: grid;
+	/* You setup blog columns */
+
+	grid-template-areas:
+		"hd hd hd hd hd hd hd hd"
+		"main main main main main main main main"
+		"ft ft ft ft ft ft ft ft";
+	border: 9px solid var(--lightColor);
+}
+
+hr {
+	border: 2px solid var(--darkColor);
+	border-style: dashed;
+	width: 25%;
+	float: left;
+}
+
+.box {
+	background: var(--primaryColor);
+}
+
+
+.header {
+	grid-area: hd;
+	background-color: var(--lightColor);
+}
+
+
+.footer {
+	grid-area: ft;
+}
+
+.content {
+	grid-area: main;
+}
+
+.mostread span {
+	background-color: #FCD900;
+	line-height: 4px;
+	padding: 2px;
+}
+
+.listnav {
+	display: inline-flex;
+}
+
+
+.showcasecontent {
+	padding: 2rem;
+	background: url("../images/Banner.png") no-repeat center center/cover;
+	top: 0;
+	left: 0;
+	width: 98%;
+	height: 100%;
+}
+
+.showcasebox {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	height: 50vh;
+	z-index: 1;
+}
+
+.showcasecontent h1,
+p {
+	font-weight: bold;
+	justify-content: left;
+	inline-size: 25%;
+}
+
+.showcasebox a {
+	background-color: var(--darkColor);
+	color: #fff;
+	text-decoration: none;
+	padding: 4px;
+}
+
+.blogmain {
+	background-color: var(--primaryColor);
+}
+
+.blogcontent {
+	padding-left: 10px;
+}
+
+.card {
+	background: var(--lightColor);
+	padding: 1rem;
+	margin: 4px;
+	display: inline-flex;
+}
+
+.card a,
+p {
+	padding: 1rem;
+}
+
+.card img {
+	height: 150px;
+	width: 150px;
+}
+
+.postcontainer {
+	display: grid;
+	grid-template-rows: auto;
+	grid-gap: 1 rem;
+	width: fit-content;
+}
+
+/* Footer */
+#main-footer {
+	background: var(--lightColor);
+}
+
+#main-footer img {
+	height: 112px;
+	width: 112px;
+}
+
+#main-footer .footercontainer {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 1.5rem;
+}
+
+li,
+a {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+#main-footer .footercontainer>*:last-child {
+	grid-column: 1/ span 4;
+	text-align: center;
+}
+
+body {
+	border: 10px solid;
+	border-color: var(--darkColor);
+	font-family: 'Lato', sans-serif;
+
+}
