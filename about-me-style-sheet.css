@@ -53,24 +53,26 @@ a:hover{
     color: #FCFBFE;
 }
 
-.text{
+section{
     padding-left: 15px;
     background-color: #FCFBFE;
     grid-row: 2/3;
     grid-column: 1/2; 
     display: grid;
     align-content: center;
-    
-}
-.fullstack{
-    font-size: 100px;
-    margin-left: 50px;
 }
 
-.city{
-    font-size: 30px;
-    color: lightgray;
+.hi{
+    font-size: 50px;
     margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.paragraph{
+    font-size: large;
+    margin-left: 50px;
+    max-width: 500px;
+    height: auto;
 }
 
 .image{
