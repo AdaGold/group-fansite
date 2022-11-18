@@ -1,0 +1,138 @@
+main {
+    display: flex;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: solid; */
+    background-color: rgba(252, 250, 249, 1); 
+    font-family: 'Quicksand', sans-serif;
+    color:rgb(78, 77, 77)
+}
+
+
+.wrapper{
+    width: 100%;
+    width: 1170px;
+    margin: auto;
+}
+
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+/* h1,
+h2,
+h3
+{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+ */
+
+
+/* section {
+    flex-direction:column-reverse;
+
+} */
+
+/* img, p {
+    float: left;
+    width:50%;
+} */
+
+/* img {
+    padding: 5%;
+} */
+
+/* p{
+    
+    margin-right: 2%;
+} */
+/* 
+h1 { 
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+} */
+
+/* nav {
+    flex-direction: row;
+}  */
+
+/* ul {
+    flex-direction: row;
+    display: inline;
+} */
+
+/* .wrapper {
+   
+    border: solid purple;
+} */
+.nav-area{
+    /* border: solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    /* float:right;
+    margin-top: 20px;
+    padding-right: 10px; */
+}
+
+.bottomnav {
+    padding: 50px 5%;
+    text-align: center;
+}
+.nav-area li, .bottomnav li { 
+    padding: 0px 20px;
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-area li a , .bottomnav li a{
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 1.5em;
+}
+
+
+/* .logo img{
+    width: 200px;
+    padding-left: 5%;
+}
+
+.meet-me h1{
+    display: flex;
+    text-align: center;
+    font-size: 80px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0; 
+    width: 100%; 
+    display: flex */
+/* }   */
+
+/* .bottomnav li a{
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+    list-style: none;
+} */
+
+
+footer li{
+    list-style: none;
+    display: inline;
+}
+
+.bottomnav{
+    li
+}
