@@ -1,0 +1,54 @@
+/* Nav Bar */
+.listnav {
+	display: none;
+}
+
+/* Main Blog Post */
+.showcasecontent h1,
+p {
+	font-weight: bold;
+	justify-content: left;
+	inline-size: 80%;
+}
+
+.showcasecontent span {
+	background: rgba(255, 240, 0, 0.6);
+}
+
+.showcasecontent {
+	padding: 2rem;
+	background: url("../images/Banner.png") no-repeat center center/cover;
+	top: 0;
+	left: 0;
+	width: 80%;
+	height: 100%;
+}
+
+/* Blog page post*/
+.blogpostfoto {
+	width:85%;
+	height: 100%;
+}
+
+.containerbio {
+	flex-direction: column;
+}
+
+/* Most Read Posts Cards */
+.card p,
+h3 {
+	inline-size: 95%;
+	font-size: smaller;
+}
+
+.card h3 {
+	font-size: small; 
+	text-align: center;
+}
+
+/* Footer */
+.list,
+.newsletter,
+.footercontainer h3 {
+	display: none;
+}
