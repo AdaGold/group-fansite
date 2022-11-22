@@ -1,0 +1,27 @@
+#header {
+    grid-area: 1/1/2/6;
+}
+
+h1 {
+    color: black;
+    grid-area: 2/1/3/6;
+    font-size: 6em;
+    font-family: "Lucida Console", "Andale Mono", monospace;
+    text-align: center;
+}
+
+#projects {
+    display: flex;
+    grid-column: 1/6;
+}
+
+p {
+    grid-column: 2/5;
+    font-size: 1.5em;
+    font-family: "Lucida Console", "Andale Mono", monospace;
+
+}
+
+body {
+    background-color: rgb(252, 252, 245);
+}
