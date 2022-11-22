@@ -22,6 +22,21 @@ p {
 
 }
 
+#quote {
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+em {
+    color: rgb(213, 31, 143);
+    font-size: 3em;
+    display: block;
+    text-align: right;
+    font-style: normal;
+    font-weight: bold;
+    
+}
+
 body {
     background-color: rgb(252, 252, 245);
 }
