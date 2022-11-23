@@ -3,7 +3,7 @@
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 10fr 1fr;
+    grid-template-rows: 1fr 25fr 1fr;
 }
 
 header{
@@ -91,19 +91,29 @@ p{
 }
 
 .project-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
 }
 
 .project-container img{
     grid-column: 2/3;
-    border-radius: 4px;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 .project-description{
-    grid-column: 1/2;
-
+    /* grid-column: 1/2; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    margin-right: 235px;
+    padding: 20px;
 }
 
 .project-description h6{
@@ -113,10 +123,11 @@ p{
 .project-description p{
     padding-top: 10px;
     padding-bottom: 10px;
+    text-align: center;
 }
 
 .project-description button{
-    border-radius: 4px;
+    border-radius: 5px;
     border-color: lightgray;
     padding: 5px;
     background-color: darkgray;
