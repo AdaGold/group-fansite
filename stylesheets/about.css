@@ -1,0 +1,48 @@
+#header {
+    grid-area: 1/1/2/6;
+}
+
+h1 {
+    color: black;
+    grid-area: 2/1/3/6;
+    font-size: 6em;
+    font-family: "Lucida Console", "Andale Mono", monospace;
+    text-align: center;
+}
+
+#projects {
+    display: flex;
+    grid-column: 1/6;
+}
+
+#blurb {
+    grid-column: 2/5;
+    font-size: 1.5em;
+    font-family: "Lucida Console", "Andale Mono", monospace;
+
+}
+
+#quote {
+    font-size: 1.25em;
+}
+
+em {
+    color: orange;
+    font-size: 2em;
+    display: block;
+    text-align: right;
+    font-style: normal;
+    font-weight: bold;
+    
+}
+
+body {
+    background-color: rgb(252, 252, 245);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
