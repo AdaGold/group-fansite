@@ -1,0 +1,18 @@
+#photo-container {
+    max-width: 60%;
+}
+
+.container ul {
+    display: flex;   
+    flex-wrap: nowrap;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    display: inline;
+}
+
+li img {
+    max-width: 80%;
+}
