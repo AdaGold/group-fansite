@@ -1,0 +1,32 @@
+.portfolio {
+    display: grid;
+    height: 100%;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    width: 90%;
+}
+
+.portfolio-item {
+    border: solid;
+    border-color: rgb(147, 147, 147);
+}
+
+.portfolio-item:hover {
+    border-color: #75bedb;
+}
+.portfolio-item h2 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(130, 129, 129);
+}
+
+.portfolio-item p {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(147, 147, 147);
+    padding: .2em;
+}
+
