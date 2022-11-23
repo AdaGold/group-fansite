@@ -65,9 +65,9 @@ Present the elements on the page as you see fit by using the following at least 
 Both of these containers do not need to be on the same page. Try using one for one page, and the other for another page!
 
 <details>
-<summary>If you need some inspiration, here are two common layouts you can replicate</summary>
+<summary>If you need some inspiration, here are two common layouts you can replicate</summary> 
 
-![Personal Portfolio Wfireframe Example 1](./assets/personal-portfolio_wireframe1.png)  
+![Personal Portfolio Wfireframe Example 1](./assets/personal-portfolio_wireframe1.png)
 
 ![Personal Portfolio Wfireframe Example 2](./assets/personal-portfolio_wireframe2.png)  
 </details>

@@ -1,0 +1,153 @@
+* {margin:0;padding:0;}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 25fr 1fr;
+}
+
+header{
+    background-color: darkgray;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h4{
+    color: #FCFBFE;
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+nav ul{
+    justify-content: end;
+    margin-right: 50px;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+a{
+    color: lightgray;
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+    color: lightgray;
+}
+a:visited{
+    text-decoration: none;
+    color: lightgray;
+}
+a:hover{
+    text-decoration: none;
+    color: #FCFBFE;
+}
+#currentpage{
+    color: #FCFBFE;
+}
+
+.projects{
+    padding-left: 15px;
+    background-color: #FCFBFE;
+    grid-row: 2/3;
+    grid-column: 1/3; 
+    display: grid;
+    align-content: center;
+    list-style: none;
+}
+
+.projects li{
+    font-size: large;
+    margin-left: 215px;
+    padding: 10px;
+
+} 
+
+h6{
+    font-size: 30px;
+}
+
+p{
+    font-size: large;
+    max-width: 500px;
+    height: auto;
+}
+
+.image{
+    background-color: #FCFBFE;
+    display: grid;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 200px;
+    width: auto;
+}
+
+.project-container{
+    /* display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.project-container img{
+    grid-column: 2/3;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.project-description{
+    /* grid-column: 1/2; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    margin-right: 235px;
+    padding: 20px;
+}
+
+.project-description h6{
+    font-size: 25px;
+}
+
+.project-description p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.project-description button{
+    border-radius: 5px;
+    border-color: lightgray;
+    padding: 5px;
+    background-color: darkgray;
+    color: #FCFBFE;
+
+}
+
+
+footer{
+    background-color: darkgray;
+    grid-column: 1/3;
+    grid-row: 3/4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+footer .media{
+    display: inline-block;
+    width: 50px;
+    height: auto;
+    margin: 10px;
+}
