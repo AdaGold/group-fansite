@@ -1,0 +1,96 @@
+body .page {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#menu_container {
+    position: static;
+    width: 100%;
+    margin:auto;
+    text-align: center;
+    background-color: white;
+}
+
+#menu_container .menu_padding {
+    padding: 1.5em 2em;
+}
+
+#header_container {
+    display: block;
+}
+
+#head_logo {
+    float: left;
+    padding-right: 40px;
+    width: 40%;
+    max-width: 430px;
+    text-align: left;
+    min-height: 30px;
+    max-height: 150px;
+    box-sizing: border-box;
+}
+#head_logo h1 a {
+    display: inline-block;
+    text-decoration: none;
+    color: #75bedb;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.nav {
+    text-align: right;
+    box-sizing: border-box;
+    max-width: 900px;
+    width: 60%;
+    overflow: hidden;
+}
+
+ul.menu_list {
+    list-style: none;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 30px;
+}
+
+ul.menu_list > li {
+    display: inline-block;
+}
+
+.menu_list li a {
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    padding: .7em;
+    display: block;
+    line-height: .3em;
+    text-decoration: none;
+}
+
+.menu_list li a:hover {
+    background-color: #75bedb;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    margin:auto;
+    padding: 2em;
+}
+
+.container .info {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(130, 129, 129);
+    max-width: 60%;
+    line-height: 1.5em;
+}
+
+#disclaimer {
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 2em;
+}
