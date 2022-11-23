@@ -15,6 +15,7 @@
 .portfolio-item:hover {
     border-color: #75bedb;
 }
+
 .portfolio-item h2 {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,6 +23,16 @@
     color: rgb(130, 129, 129);
 }
 
+.portfolio-item a {
+    color: rgb(130, 129, 129);
+    text-decoration: none;
+}
+
+.portfolio-item a:hover {
+    background-color: #75bedb;
+    color: white;
+    padding: .5em;
+}
 .portfolio-item p {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
