@@ -1,0 +1,42 @@
+
+#header {
+    grid-area: 1/1/2/6;
+}
+
+body {
+    background-color: rgb(252, 252, 245);
+    background-image: url(../assets/carpet_orange.webp);
+    background-position: 50% 0;
+}
+
+h1 {
+    color: black;
+    grid-area: 2/1/3/6;
+    font-size: 6em;
+    font-family: "Lucida Console", "Andale Mono", monospace;
+    text-align: center;
+}
+
+#projects {
+    display: flex;
+    grid-column: 2/5;
+    grid-row-start: 3;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.project {
+    background-color: beige;
+    opacity: .8;
+    width: 60vw;
+}
+
+.project img{
+    float: right;
+}
+
+em {
+    font-style: normal;
+    font-weight: bold;
+}

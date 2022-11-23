@@ -1,0 +1,60 @@
+#main-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(6, 15vw);
+}
+
+body{
+    font-family: "Lucida Console", "Andale Mono", monospace;
+}
+
+#header {
+    grid-area: 1/1/2/2 ;
+    padding-right: 3vw;
+    background-color: orange;
+}
+
+ul {
+    list-style-type: none;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    text-align: right;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color:orangered;
+    text-decoration: none;
+}
+
+a:hover {
+    color:red;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+h1 {
+    color: fuchsia; 
+}
+
+
+.container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+footer {
+    color: gray;
+    grid-area: 6/1/7/2;
+}
+
