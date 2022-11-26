@@ -4,10 +4,19 @@ Congratulations! You're submitting your assignment!
 ## Comprehension Questions
 Question | Answer
 :------------- | :-------------
-Did you have to resolve any issues when running the HTML Validator? If so, what were they? |
+Did you have to resolve any issues when running the HTML Validator? If so, what were they? | 
+Yes. The issues seemed minor for the most part. One issue was having <main> following a <section>. And then missing "alt" within <img>.
 Why is it important to consider and use semantic HTML? |
+I think it makes reading the code easier and cleaner. Also for accessiblity.
 How did you decide to structure your CSS? |
+I looked at a number of portfolio websites from different artists, designers and web developers. I had a couple iterations that I drafted out.
+I also looked at the structure of CSS naming with using class and id of multiple web pages to work on my organization.
 What was the most challenging piece of this assignment? |
+It seemed like a lot of guess and checking. Minor tweaks here and there until I got the layout closest to what I wanted.
+I would try multiple things and either it would not work or look completely different than I expect.
+Pretty frustrating but overall I enjoyed it!
 Describe one area that you gained more clarity on when completing this assignment |
+Definitely the structure of css. Seeing how other developers organized their layout was the most helpful.
 **Optional** |
 Did you deploy to GitHub Pages? If so, what is the URL to your website? |
+alyalyaly18.github.io
