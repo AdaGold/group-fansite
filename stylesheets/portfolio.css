@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+    background-color: #FAF9F6;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 50px 200px 100px;
+    grid-gap: 1em;
+    }
+    
+    header,
+    footer {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    }
+    
+    .grid > * {
+    background: #FAF9F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5em;
+    }
