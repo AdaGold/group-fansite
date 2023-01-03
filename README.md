@@ -1,13 +1,24 @@
-# Group Fansite
+# Personal Portfolio Site
 
 ## Introduction
 
-When first starting out, it is common for developers to create a small website to show off their web-dev skills and document their interests. 
+It is common for developers to create a website to show off their web-dev skills and document their work and interests. These sites often feature things like:
 
-We will use HTML & CSS to create a static site whose content is a fansite about something your group is passionate about. Your group fansite should contain a home page with some introductory information about your chosen topic, fun facts about your topic, and pictures showcasing your topic. 
+- A professional introduction of themselves, careers, and interests
+- A portfolio of projects that they've created and/or collaborated on
+- A blog to share their experiences, thoughts, and/or subject matter expertise
+- Other materials to share any non-coding interests and hobbies
+- A site designed to express themselves
 
-### Sample Site
-View a simple sample website [here](https://adaanswers.github.io/group-fansite-example/index.html). 
+We will use HTML & CSS to create a static site whose content is our personal portfolio. Our personal portfolio site should contain information about ourselves and the coding work we've done.
+
+### Some Inspiration
+- [http://lizabinante.com/](http://lizabinante.com/)
+- [http://where.coraline.codes/](http://where.coraline.codes/)
+- [http://danisaurus.github.io/](http://danisaurus.github.io/)
+- [http://www.fenslattery.com/](https://fenslattery.com/)
+- [https://www.heyellieday.com/](https://heyellieday.com/)
+- [http://car.oline.codes/](http://car.oline.codes/)
 
 ## Learning Goals:
 - Practice creating semantic HTML
@@ -26,11 +37,9 @@ This portfolio site must have the following HTML files:
 
 - `index.html` must include your name somewhere.
 
-- `facts.html` should include some facts about 
+- `about.html` should include some information about you, your interests, background or similar. Only post what you are comfortable sharing.
 
-- `gallery.html` must include information about several projects you have completed at Ada (or elsewhere) with links to the GitHub repo (if available), descriptions, images, etc.
-
-Each group member should take responsibility for creating one HTML file. 
+- `portfolio.html` must include information about several projects you have completed at Ada (or elsewhere) with links to the GitHub repo (if available), descriptions, images, etc.
 
 ### Layout
 
@@ -43,30 +52,24 @@ Each page in this project must comply with the following layout requirements:
 
 ### Required Content
 
-In this wave, we will add CSS styling to change the appearance of the site.
-
-Create and use one main CSS document named `style.css`, which will hold styles that apply to every page. Then create three additional CSS documents for each HTML page's specific styles, named `index.css`, `facts.css`, and `gallery.css`.
-
-**Each html page should link to to two style sheets:** `style.css` first, and then CSS document that corresponds to it (`index.css`, `facts.css`, or `gallery.css`). This will ensure that the specific styles override the generic one.
-
-Work together as a group to first create generic stylings for all three HTML files in `style.css`. Each group member should also add at least three page specific styles to their page specific style sheet, at least one of which should override the corresponding generic style from `style.css`.
+- Uses at least one CSS file (likely named `style.css`)
 
 ## Wave 3 - Layout
 
 ### Required Content
 
-In this wave, work together to present the elements on the page as you see fit by using the following at least once:
+Present the elements on the page as you see fit by using the following at least once:
 * a grid container with a few grid items
 * a flexbox container with a few flex items
 
-Both of these containers do not need to be on the same page. Try using one for one page, and the other for another page! 
+Both of these containers do not need to be on the same page. Try using one for one page, and the other for another page!
 
 <details>
 <summary>If you need some inspiration, here are two common layouts you can replicate</summary>
 
-![Group Fansite Wireframe Example 1](./assets/group-fansite-wireframe1.png)  
+![Personal Portfolio Wfireframe Example 1](./assets/personal-portfolio_wireframe1.png)  
 
-![Group Fansite Portfolio Wireframe Example 2](./assets/group-fansite-wireframe2.png)  
+![Personal Portfolio Wfireframe Example 2](./assets/personal-portfolio_wireframe2.png)  
 </details>
 </br>
 
@@ -80,7 +83,7 @@ The site should follow best practices, including:
 
 ### Optional Enhancements
 
-- Create a `blog/` directory. Within this directory...
+- Create a `blog/` or `code-journal/` directory. Within this directory...
   - create single `html` file for each entry in your blog/journal
   - update the nav on the rest of your site to reference each entry as a sublist/subnav.
   - update any tags with path references (`img`, `link`, `a` tags) to accommodate for the entries being in a different directory.
