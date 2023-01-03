@@ -26,7 +26,7 @@ This portfolio site must have the following HTML files:
 
 - `index.html` must include your name somewhere.
 
-- `facts.html` should include some facts about 
+- `facts.html` should include a series of fun facts or more detailed information about your topic.
 
 - `gallery.html` must include information about several projects you have completed at Ada (or elsewhere) with links to the GitHub repo (if available), descriptions, images, etc.
 
