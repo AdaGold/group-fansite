@@ -10,15 +10,8 @@ It is common for developers to create a website to show off their web-dev skills
 - Other materials to share any non-coding interests and hobbies
 - A site designed to express themselves
 
-We will use HTML & CSS to create a static site whose content is our personal portfolio. Our personal portfolio site should contain information about ourselves and the coding work we've done.
-
-### Some Inspiration
-- [http://lizabinante.com/](http://lizabinante.com/)
-- [http://where.coraline.codes/](http://where.coraline.codes/)
-- [http://danisaurus.github.io/](http://danisaurus.github.io/)
-- [http://www.fenslattery.com/](https://fenslattery.com/)
-- [https://www.heyellieday.com/](https://heyellieday.com/)
-- [http://car.oline.codes/](http://car.oline.codes/)
+### Sample Site
+View this sample fansite here. 
 
 ## Learning Goals:
 - Practice creating semantic HTML
