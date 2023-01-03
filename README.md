@@ -7,7 +7,7 @@ When first starting out, it is common for developers to create a small website t
 We will use HTML & CSS to create a static site whose content is a fansite about something your group is passionate about. Your group fansite should contain a home page with some introductory information about your chosen topic, fun facts about your topic, and pictures showcasing your topic. 
 
 ### Sample Site
-View this sample fansite here. 
+View a simple sample website [here](https://adaanswers.github.io/group-fansite-example/index.html). 
 
 ## Learning Goals:
 - Practice creating semantic HTML
@@ -49,7 +49,7 @@ Create and use one main CSS document named `style.css`, which will hold styles t
 
 **Each html page should link to to two style sheets:** `style.css` first, and then CSS document that corresponds to it (`index.css`, `facts.css`, or `gallery.css`). This will ensure that the specific styles override the generic one.
 
-Work together as a group to first create generic stylings for all three HTML files in `style.css`. Each group member should also add at least one page specific style that overrides the generic one from `style.css` to their page specific style sheet. 
+Work together as a group to first create generic stylings for all three HTML files in `style.css`. Each group member should also add at least three page specific styles to their page specific style sheet, at least one of which should override the corresponding generic style from `style.css`.
 
 ## Wave 3 - Layout
 
@@ -64,11 +64,9 @@ Both of these containers do not need to be on the same page. Try using one for o
 <details>
 <summary>If you need some inspiration, here are two common layouts you can replicate</summary>
 
-These layouts are designed for a personal portfolio website, but can work just as well fo
+![Group Fansite Wireframe Example 1](./assets/group-fansite-wireframe1.png)  
 
-![Group Fansite Wireframe Example 1](./assets/personal-portfolio_wireframe1.png)  
-
-![Group Fansite Portfolio Wireframe Example 2](./assets/personal-portfolio_wireframe2.png)  
+![Group Fansite Portfolio Wireframe Example 2](./assets/group-fansite-wireframe2.png)  
 </details>
 </br>
 
