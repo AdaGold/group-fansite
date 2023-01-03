@@ -1,4 +1,4 @@
-# Personal Portfolio Site
+# Group Fansite
 ## What We're Looking For
 
 Feature | Feedback
