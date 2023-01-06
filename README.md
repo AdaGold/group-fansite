@@ -22,13 +22,13 @@ We should only use static HTML and CSS for this project. Preprocessors (haml, er
 
 ## Wave 1 - Basic HTML
 
-This portfolio site must have the following HTML files:
+This group fansite must have the following HTML files:
 
 - `index.html` must include your name somewhere.
 
 - `facts.html` should include a series of fun facts or more detailed information about your topic.
 
-- `gallery.html` must include information about several projects you have completed at Ada (or elsewhere) with links to the GitHub repo (if available), descriptions, images, etc.
+- `gallery.html` must at least 3 images with descriptions and links to where the images came from if applicable. 
 
 Each group member should take responsibility for creating one HTML file. 
 
