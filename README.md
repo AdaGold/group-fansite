@@ -28,7 +28,7 @@ This group fansite must have the following HTML files:
 
 - `facts.html` should include a series of fun facts or more detailed information about your topic.
 
-- `gallery.html` must at least 3 images with descriptions and links to where the images came from if applicable. 
+- `gallery.html` must include at least 3 images with descriptions and links to where the images came from if applicable. 
 
 Each group member should take responsibility for creating one HTML file. 
 
