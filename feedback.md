@@ -1,4 +1,4 @@
-# Personal Portfolio Site
+# Group Fansite
 ## What We're Looking For
 
 Feature | Feedback
@@ -8,7 +8,7 @@ Appropriate Git Usage |
 Answered comprehension questions |
 Page fully loads |
 No broken links (regular or images) |
-Includes at least 4 pages and styling |
+Includes at least 3 pages and styling |
 **HTML** |
 Uses the high-level tags for organization: `header, footer, main` |
 Appropriately using semantic tags: `section, article`, etc. |
