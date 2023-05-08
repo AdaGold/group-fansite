@@ -4,7 +4,7 @@
 
 When first starting out, it is common for developers to create a small website to show off their web-dev skills and document their interests. 
 
-We will use HTML & CSS to create a static site whose content is a fansite about something your group is passionate about. Your group fansite should contain a home page with some introductory information about your chosen topic, fun facts about your topic, and pictures showcasing your topic. 
+We will use HTML & CSS to create a static site whose content is a fansite about something your group is passionate about. Your group fansite should contain a home page with some introductory information about your chosen topic, a fun facts page about your topic, and a gallery showcasing pictures about your topic.
 
 ### Sample Site
 View a simple sample website [here](https://adaanswers.github.io/group-fansite-example/index.html). 
