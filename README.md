@@ -24,7 +24,7 @@ We should only use static HTML and CSS for this project. Preprocessors (haml, er
 
 This group fansite must have the following HTML files:
 
-- `index.html` must include your name somewhere.
+- `index.html` must include your names or team name somewhere.
 
 - `facts.html` should include a series of fun facts or more detailed information about your topic.
 
