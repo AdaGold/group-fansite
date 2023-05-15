@@ -1,0 +1,124 @@
+body {
+    font-family: sans-serif;
+    background-color: #FAF9F6;
+    /* margin-left: 7em; */
+    margin-top: 5em;
+    line-height: 1em;
+}
+
+.wrapper {
+    display:grid;
+    grid-gap: 10px;
+    row-gap: 0px;
+    grid-template-columns: [col1-start] 150px  [col2-start] 350px  [col3-start] 100px [col3-end];
+    grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
+    background-color: #FAF9F6;
+    color: #444;
+    /* margin-left: 7em; */
+    justify-items:left;
+}
+
+.h1 {
+    grid-column: col1-start / col3-start;
+    grid-row: row1-start;
+    justify-items:left;
+    margin-left: 4em;
+    font-size:larger;
+    font-weight: bold;
+    text-align: center;
+    line-height: 10em;
+
+} 
+.h2 {
+    grid-column: col1-start / col3-start;
+    grid-row: row2-start ;
+    margin-left: 4em;
+    justify-items:left;
+    text-align: center;
+    line-height: 2em;
+}
+.h3 {
+    grid-column: col1-start / col3-start;
+    grid-row: row3-start ;
+    margin-left: 4.5em;
+    justify-items:left;
+}
+.nav {
+    grid-column: col2-start /col3-start;
+    grid-row: row4-start;
+    margin-left: 5em;
+    justify-items:left;
+    text-align: center;
+    line-height: 2em ;
+}
+
+.footer {
+    /* margin-left: 7em; */
+    justify-items:left;
+    grid-column: col2-start /col3-start;
+    grid-row: row5-start;
+    line-height: 3em;
+    text-align: center;
+}
+
+main {
+    font-size: small;
+    font-family: sans-serif;
+    /* background-color: #5ea197; */
+}
+
+/* .h1 {
+    text-align:inherit;
+    justify-items:left;
+    margin-left: 9.3em;
+    margin-top: 5em;
+    color: black;
+    font-family: sans-serif;
+    grid-column: col1-start / col3-start;
+    grid-row: row1-start ;
+} */
+
+/* h2,h3,h4, nav {
+    margin-left: 9.3em;
+    justify-items:left;
+    text-align:inherit;
+    font-size: medium;
+    color: black;
+    font-family: sans-serif;
+    /* grid-column: col3-start ;
+    grid-row: row1-start / row2-end; */
+
+/* .h2 {
+    grid-column: col1-start / col3-start;
+    grid-row: row1-start ;
+}
+
+.h3 {
+    grid-column: col1-start / col3-start;
+    grid-row: row1-start ;
+}
+
+
+.nav {
+    grid-column: col3-start ;
+    grid-row: row1-start / row2-end;
+} */
+
+
+.fit-picture {
+    width: 250px;
+    grid-column: col3-start ;
+    grid-row: row1-start / row2-end;
+    margin-left: 9.3em;
+    justify-items:left;
+    
+}
+/* used grid settings from original h2 and am now changing h2 to be the same as h1 so that it will be right below */
+
+.container {
+    display: flex;
+}
+
+/* #nothing changes if i comment the above part out or not */
+/* styling for index and portfolio and about page */
+/* rgb(136, 146, 176)
