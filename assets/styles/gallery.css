@@ -1,0 +1,34 @@
+html{
+    background-color: aqua;
+}
+
+img {
+    width: 400px;
+}
+
+header{
+    text-align: center;
+}
+
+a:hover{
+    color: yellow;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+li img{
+    margin-bottom: 10px;
+}
+
+li section{
+    margin-top: 10px;
+}
+
+img{
+    border-radius: 5%;
+}
