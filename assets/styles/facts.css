@@ -9,7 +9,6 @@ html {
     align-content: end;
     margin:auto;
     text-align: center;
-    background-image: url("bluebird.jpg");
     
 }
 
@@ -21,7 +20,9 @@ header h1{
   width: auto;
   height: auto;
 }
-
+ a:hover{
+    color: rgb(46, 185, 255);
+ }
 
 /* .center {
     margin: auto;
