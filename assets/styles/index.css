@@ -1,5 +1,6 @@
 html{
-    background: linear-gradient(0deg, greenyellow, blue 40%);
+    background-image: url('/assets/images/gala-index.jpg');
+    background-size: 100%;
 }
 
 header{
