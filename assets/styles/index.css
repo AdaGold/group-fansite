@@ -1,0 +1,14 @@
+html{
+    background: linear-gradient(0deg, greenyellow, blue 40%);
+}
+
+header{
+    text-align: center;
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
