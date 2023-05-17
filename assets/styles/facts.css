@@ -5,24 +5,36 @@ html {
 }
 
 #container {
-    display: block;
-    align-content: end;
-    margin:auto;
+    display:grid;
     text-align: center;
     
 }
 
-header h1{
-  border-radius: 10px;
-  background-color: rgb(183, 169, 151);
-  position: sticky;
-  padding: 10px;
-  width: auto;
-  height: auto;
+
+.header {
+    overflow: hidden;
+    background-color: rgb(183, 169, 151);
+    position:absolute;
+    top: 0;
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
- a:hover{
-    color: rgb(46, 185, 255);
- }
+
+.header a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.header a:hover{
+    color: darkkhaki;
+    background-color: black;
+}
+
 
 /* .center {
     margin: auto;
@@ -40,3 +52,7 @@ footer p {
     width: 100%;
     height: auto;
 }
+/* 
+header li{
+float: right;
+} */
