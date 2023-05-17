@@ -1,21 +1,67 @@
-* {
+/* * {
     border: 1px antiquewhite dashed;
-}
-
-body {
+} */
+body
+{
     padding: 20px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
     color: antiquewhite;
     background-color: rgb(1, 1, 46);
 }
-
+#wrapper{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.container
+{
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -100;
+}
+.shroom
+{
+    position: relative;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin: 11px;
+    animation: animate 5s linear infinite;
+    animation-duration: calc(40s / var(--i));
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: translateY(100vh) scale(0.5);
+    }
+    100%
+    {
+        transform: translateY(0vh) scale(2);
+    }
+}
 nav > a {
     display: inline-block;
 }
 
 ul {
     list-style-type: none;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+article
+{
+    display: grid;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgba(255, 192, 203, 0.302);
+    border: 2px pink solid;
 }
 
 nav > a:before, li:before {
@@ -30,7 +76,7 @@ footer {
 
 /* Someone change this font please sob */
 h1, h2 {
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 a {
