@@ -50,18 +50,6 @@ nav > a {
 
 ul {
     list-style-type: none;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-article
-{
-    display: grid;
-    padding: 10px 10px 10px 10px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: rgba(255, 192, 203, 0.302);
-    border: 2px pink solid;
 }
 
 nav > a:before, li:before {
@@ -74,7 +62,7 @@ footer {
     font-size: 12px;
 }
 
-/* Someone change this font please sob */
+/* [Trang] I changed it and feel free to make it less mid */
 h1, h2 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
