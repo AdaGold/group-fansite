@@ -1,35 +1,75 @@
-html{
-    background: linear-gradient(to bottom, #2bddb9, #b5cc22 );
+html {
+  background: linear-gradient(to bottom, #2fcbe0, #a4d06b);
+}
+
+body {
+  font-family: "Trebuchet MS";
+  color: rgb(97, 81, 81);
 }
 
 img {
-    width: 400px;
+  width: 400px;
+  height: 250px;
 }
 
-header{
-    text-align: center;
+header {
+  text-align: center;
 }
 
-a:hover{
-    color: yellow;
+a:hover {
+  color: yellow;
 }
 
-li{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-li img{
-    margin-bottom: 10px;
+li img {
+  margin-bottom: 10px;
+  border: solid 2px gray;
 }
 
-li section{
-    margin-top: 10px;
+li section {
+  margin-top: 10px;
 }
 
-img{
-    border-radius: 5%;
+img {
+  border-radius: 4%;
 }
 
+footer {
+  text-align: center;
+  border: 1px solid gray;
+}
+
+nav {
+  border: 1px solid gray;
+}
+
+/* nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+} */
+
+ul {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h1{
+    animation: fade-in 2s ease-in-out;
+}
