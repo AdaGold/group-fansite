@@ -19,6 +19,5 @@ main
     display: flex;
     flex-direction: column;
     justify-content: center space-around;
-    height: 70vh;
 }
 
