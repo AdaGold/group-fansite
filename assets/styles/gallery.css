@@ -74,3 +74,20 @@ h1{
     animation: fade-in 2s ease-in-out;
     color:rgb(230, 220, 22);
 }
+
+/* screen size */
+
+/* phones */
+@media only screen and (max-width: 768px){
+    ul{
+        grid-template-columns: 100%;
+    }
+}
+
+/* tablets */
+@media only screen and (min-width:769px) and (max-width:1024px){
+    img{
+        width: 80px;
+        height: auto;
+    }
+}
