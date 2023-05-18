@@ -72,4 +72,5 @@ ul {
 
 h1{
     animation: fade-in 2s ease-in-out;
+    color:rgb(230, 220, 22);
 }
