@@ -1,26 +1,25 @@
 html {
-    background-image: url("/assets/images/bluebird.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-color: rgb(171, 213, 243);
+    text-align: center;
 }
 
-#container {
+.container {
     display:grid;
+    grid-template-columns: 2;
+    grid-template-rows:span 3;
+    padding-bottom: 2.5rem;
+    gap: 50px;
     text-align: center;
     
 }
-
-
-.header {
-    overflow: hidden;
-    background-color: rgb(183, 169, 151);
-    position:absolute;
-    top: 0;
-    width: 100%;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+main{
+    text-align: center;
+    margin-top: auto;
+    padding: 20px;
 }
 
-.header a{
+
+/* .header a{
     float: left;
     display: block;
     color: #f2f2f2;
@@ -28,29 +27,22 @@ html {
     padding: 14px 16px;
     text-decoration: none;
     border-radius: 5px;
-}
+} */
 
 .header a:hover{
-    color: darkkhaki;
-    background-color: black;
+    color: rgb(230, 114, 114);
 }
 
-
-/* .center {
-    margin: auto;
-    width: 50%;
-    border: 3px solid green;
-    padding: 10px;
-} */
 footer p {
     position:absolute;
     color: grey;
     bottom: 0;
     border-radius: 10px;
-    background-color: rgb(183, 169, 151);
-    padding: 10px;
+    /* background-color: rgb(183, 169, 151); */
+    /* padding: 10px; */
     width: 100%;
-    height: auto;
+    height: 2.5;
+    text-align: center;
 }
 /* 
 header li{
