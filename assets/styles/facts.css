@@ -8,6 +8,24 @@ padding: 0;
     background-color: rgb(255, 255, 255);
 } */
 
+a:link {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+a:hover{
+    text-decoration:underline;
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif
+}
+
 .header{
     background-color: antiquewhite;
     text-align: center;
@@ -29,7 +47,6 @@ padding: 0;
 }
 
 .first-facts{
-    background-color: burlywood;
     padding: 1%;
     margin: auto;
     display: grid;
@@ -50,7 +67,6 @@ padding: 0;
 }
 
 .second-facts{
-    background-color: rgb(244, 138, 0);
     padding: 1%;
     margin: auto;
     display: grid;
@@ -70,7 +86,7 @@ padding: 0;
     grid-column: 4 ;
 }
 .third-facts{
-    background-color: rgb(76, 242, 98);
+
     padding: 1%;
     margin: auto;
     display: grid;
