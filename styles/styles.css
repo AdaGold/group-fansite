@@ -1,0 +1,73 @@
+/* * {
+    border: 1px antiquewhite dashed;
+} */
+body
+{
+    /* padding: 20px; */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: antiquewhite;
+    background-color: rgb(1, 1, 46);
+}
+#wrapper{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.container
+{
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -100;
+}
+.shroom
+{
+    position: relative;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin: 11px;
+    animation: animate 5s linear infinite;
+    animation-duration: calc(40s / var(--i));
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: translateY(100vh) scale(0.5);
+    }
+    100%
+    {
+        transform: translateY(0vh) scale(2);
+    }
+}
+nav > a {
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav > a:before, li:before {
+    content: "🍄";
+    padding-right: 5px;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+}
+
+/* [Trang] I changed it and feel free to make it less mid */
+h1, h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    color: rgb(239, 100, 156);
+    text-decoration: none;
+}

@@ -1,0 +1,22 @@
+section 
+{
+    width: 100vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    align-content: center;
+}
+
+.gif {
+    height: 30vh;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 30vw;
+}
+
+p
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
