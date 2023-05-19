@@ -4,14 +4,11 @@ margin: 0;
 padding: 0;
 }
 
-/* html {
-    background-color: rgb(255, 255, 255);
-} */
 
 a:link {
-    background-color: white;
-    color: black;
-    border: 2px solid green;
+    background-color: antiquewhite;
+    /* color: black; */
+    border: 2px solid rgb(170, 218, 170);
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -23,7 +20,8 @@ a:hover{
 }
 
 h1{
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:xx-large;
 }
 
 .header{
