@@ -1,14 +1,22 @@
 * {
-/* border: 1px rgb(248, 95, 95) dashed; */
 margin: 0;
 padding: 0;
 }
+html {
+    background: linear-gradient(to bottom, #2fcbe0, #a4d06b);
+}
 
+a{
+    color: black;
+}
+
+h3{
+    border: 2px solid rgb(0, 0, 0); 
+    padding: 10px 20px;
+}
 
 a:link {
-    background-color: antiquewhite;
-    /* color: black; */
-    border: 2px solid rgb(170, 218, 170);
+    border: 2px solid gray;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -25,7 +33,6 @@ h1{
 }
 
 .header{
-    background-color: antiquewhite;
     text-align: center;
 }
 
@@ -43,7 +50,9 @@ h1{
     justify-content:space-evenly;
     align-items:center;
 }
-
+main{
+    color: black;
+}
 .first-facts{
     padding: 1%;
     margin: auto;
@@ -51,17 +60,21 @@ h1{
     flex-wrap: wrap;
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 50px 50px 50px;
-    /* text-align: center; */
+
 }
 
 .first-facts h3 {
-    /* padding: 1%; */
-    grid-row: 2;
+    grid-row: 1/span 2;
     grid-column: 1/ span 2;
+    font-size: x-large;
 }
 .first-facts ul {
-    grid-row: 2/ span 3;
+    grid-row: 1/ span 3;
     grid-column: 4 ;
+    font-size: larger;
+}
+.first-facts li{
+    margin:1%;
 }
 
 .second-facts{
@@ -71,17 +84,22 @@ h1{
     flex-wrap: wrap;
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 50px 50px 50px;
-    /* text-align: center; */
+
 }
 
 .second-facts h3 {
-    /* padding: 1%; */
-    grid-row: 2;
+    
+    grid-row: 1/span 2;
     grid-column: 1/ span 2;
+    font-size: x-large;
 }
 .second-facts ul {
-    grid-row: 2/ span 3;
+    grid-row: 1/ span 3;
     grid-column: 4 ;
+    font-size: larger;
+}
+.second-facts li{
+    margin:1%;
 }
 .third-facts{
 
@@ -91,17 +109,17 @@ h1{
     flex-wrap: wrap;
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 50px 50px 50px;
-    /* text-align: center; */
 }
 
 .third-facts h3 {
-    /* padding: 1%; */
-    grid-row: 2;
+    grid-row: 1/span 2;
     grid-column: 1/ span 2;
+    font-size: x-large;
 }
 .third-facts ul {
-    grid-row: 2 / span 2;
-    grid-column: 4 ;
+    grid-row: 1;
+    grid-column: 4/ span 4 ;
+    font-size: larger;
 }
 .third-facts li{
     margin:1%;
@@ -116,4 +134,16 @@ footer p {
     width: 100%;
     height: 2.5;
     text-align: center;
+
 } 
+
+.bottom-img{
+    background-image:url(/assets/images/bluebird2.jpg);
+    background-repeat: repeat-x ;
+    background-position: 0% 18%;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: auto;
+    grid-template-rows: 150px
+
+}
