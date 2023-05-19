@@ -1,0 +1,27 @@
+ul {
+    list-style-type: none;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+article
+{
+    display: block;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+    margin-top: 4%;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgba(255, 192, 203, 0.302);
+    border: 2px pink solid;
+}
+
+main
+{
+    margin-left: 10vw;
+    margin-right: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center space-around;
+    height: 70vh;
+}
