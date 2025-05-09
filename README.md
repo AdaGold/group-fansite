@@ -24,13 +24,13 @@ We should only use static HTML and CSS for this project. Preprocessors (haml, er
 
 This group fansite must have the following HTML files:
 
-- `index.html` must include your names or team name somewhere.
+- `index.html` must include your names or team name somewhere. This file is in the project root.
 
-- `facts.html` should include a series of fun facts or more detailed information about your topic.
+- `facts.html` should include a series of fun facts or more detailed information about your topic. This file is in the `pages` folder.
 
-- `gallery.html` must include at least 3 images with descriptions and links to where the images came from if applicable. 
+- `gallery.html` must include at least 3 images with descriptions and links to where the images came from if applicable. This file is also in the `pages` folder.
 
-Each group member should take responsibility for creating one HTML file. 
+Each group member should take responsibility for completing one HTML file.
 
 ### Layout
 
