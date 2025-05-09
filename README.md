@@ -76,7 +76,7 @@ The site should follow best practices, including:
   - All markup should be semantic, with consideration of hierarchy and accessibility
   - CSS should be concise and well-formatted
   - Images and stylesheets should be kept in their own folders, called `images` and `stylesheets`, respectively
-  - Run your site through an [HTML Validator](https://validator.w3.org/#validate_by_upload) and fix all errors before submitting
+  - Run your site through an [HTML Validator](https://validator.w3.org/#validate_by_upload) and *fix all errors before submitting*
 
 ### Optional Enhancements
 
