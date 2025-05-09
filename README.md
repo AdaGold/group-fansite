@@ -32,6 +32,17 @@ This group fansite must have the following HTML files:
 
 Each group member should take responsibility for completing one HTML file.
 
+##### For Groups With More Than 3 Members
+
+Add an additional page of your choice for each additional group member!
+
+Some possibilities for additional pages could include
+- a testimonials or reviews page
+- a frequently asked questions page
+- a blog entry (such as described in the [Optional Enhancements](#optional-enhancements) below)
+
+Any extra pages you add are limited only by your imagination, but they should involve a comparable amount of work and conform to all of the same project requirements as any of the required pages.
+
 ### Layout
 
 Each page in this project must comply with the following layout requirements:
