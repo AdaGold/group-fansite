@@ -24,13 +24,24 @@ We should only use static HTML and CSS for this project. Preprocessors (haml, er
 
 This group fansite must have the following HTML files:
 
-- `index.html` must include your names or team name somewhere.
+- `index.html` must include your names or team name somewhere. This file is in the project root.
 
-- `facts.html` should include a series of fun facts or more detailed information about your topic.
+- `facts.html` should include a series of fun facts or more detailed information about your topic. This file is in the `pages` folder.
 
-- `gallery.html` must include at least 3 images with descriptions and links to where the images came from if applicable. 
+- `gallery.html` must include at least 3 images with descriptions and links to where the images came from if applicable. This file is also in the `pages` folder.
 
-Each group member should take responsibility for creating one HTML file. 
+Each group member should take responsibility for completing one HTML file.
+
+##### For Groups With More Than 3 Members
+
+In addition to the 3 pages listed above, teams of 4 or more are required to add an additional page of your choice for each additional group member.
+
+Some possibilities for additional pages could include:
+- a testimonials or reviews page
+- a frequently asked questions page
+- a blog entry (such as described in the [Optional Enhancements](#optional-enhancements) below)
+
+Any extra pages you add are limited only by your imagination, but they should involve a comparable amount of work and conform to all of the same project requirements as any of the required pages in the section above.
 
 ### Layout
 
@@ -76,7 +87,7 @@ The site should follow best practices, including:
   - All markup should be semantic, with consideration of hierarchy and accessibility
   - CSS should be concise and well-formatted
   - Images and stylesheets should be kept in their own folders, called `images` and `stylesheets`, respectively
-  - Run your site through an [HTML Validator](https://validator.w3.org/#validate_by_upload) and fix all errors before submitting
+  - Run your site through an [HTML Validator](https://validator.w3.org/#validate_by_upload) and *fix all errors before submitting*
 
 ### Optional Enhancements
 
@@ -92,3 +103,5 @@ A lot of developers find their initial foray into CSS frustrating. Every browser
 
 ### Optional: Deploy with GitHub Pages
 Want more? Make your site live on the internet! There are a lot of ways to go about hosting a live website, but GitHub provides a way to host static sites for free using your GitHub account. [Follow the steps listed here](https://pages.github.com/).
+
+Since you will already have a completed site at this point, we suggest using the steps provided when picking `Project site`, and `Start from scratch` from the options.
